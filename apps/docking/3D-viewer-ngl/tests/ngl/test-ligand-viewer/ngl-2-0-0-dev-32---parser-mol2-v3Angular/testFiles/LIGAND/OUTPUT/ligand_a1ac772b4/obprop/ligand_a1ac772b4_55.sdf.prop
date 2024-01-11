@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_55.sdf 1
+formula          C15H14O3
+mol_weight       242.27
+exact_mass       242.094
+canonical_SMILES OC(=O)[C@H](c1cccc(c1)Oc1ccccc1)C	
+
+InChI            InChI=1S/C15H14O3/c1-11(15(16)17)12-6-5-9-14(10-12)18-13-7-3-2-4-8-13/h2-11H,1H3,(H,16,17)/t11-/m0/s1
+
+num_atoms        32
+num_bonds        33
+num_residues     0
+num_rotors       4
+sequence         -
+num_rings        2
+logP             3.667
+PSA              46.53
+MR               69.3098
+$$$$

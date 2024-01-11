@@ -1,0 +1,58 @@
+<?php
+require_once ("config/globals-daemon.php");
+require_once ("../lib/sinapad-rest/rest-php-adapter.php");
+
+
+$uuid = "";
+if (file_exists ( $GLOBALS ['DOCKTHOR_PATH'] . "/apps/docking/daemon/uuid.txt" )) {
+	$uuid = file_get_contents ( $GLOBALS ['DOCKTHOR_PATH'] . "/apps/docking/daemon/uuid.txt" );
+}
+if (rest_user_info ( $uuid ) != 200) {
+	rest_logout ( $uuid );
+	$uuid = rest_login ();
+	file_put_contents ( $GLOBALS ['DOCKTHOR_PATH'] . "/apps/docking/daemon/uuid.txt", $uuid );
+}
+if (! isset ( $uuid ) || empty ( $uuid )) {
+	die ();
+}
+
+$files = preg_grep ( '/^([^.])/', scandir ( $GLOBALS ['DOCKTHOR_PATH'] . "/apps/docking/daemon/running" ) );
+
+echo "DAEMON RUNNING FILES:\n";
+foreach ( $files as $portal_id ) {
+	rename ( $GLOBALS ['DOCKTHOR_PATH'] . "/apps/docking/daemon/running/$portal_id", $GLOBALS ['DOCKTHOR_PATH'] . "/apps/docking/daemon/checking/$portal_id" );
+	shell_exec ( "nohup php " . $GLOBALS ['DOCKTHOR_PATH'] . "/apps/docking/daemon/daemon-check-running.php '$uuid' '$portal_id' > /dev/null 2>/dev/null &" );
+	//shell_exec ( "nohup php " . $GLOBALS ['DOCKTHOR_PATH'] . "/apps/docking/daemon/daemon-check-running.php '$uuid' '$portal_id'" );
+	
+}
+
+$files_checking = preg_grep ( '/^([^.])/', scandir ( $GLOBALS ['DOCKTHOR_PATH'] . "/apps/docking/daemon/checking" ) );
+
+$num_jobs_submitted = count($files) + count($files_checking);
+
+if ( $num_jobs_submitted < $GLOBALS ['MAX_NUMBER_JOBS'] ) {
+	
+	$files = preg_grep ( '/^([^.])/', scandir ( $GLOBALS ['DOCKTHOR_PATH'] . "/apps/docking/daemon/pending" ) );
+	$count = 0;
+	
+	echo "DAEMON PENDING FILES:\n";
+	foreach ( $files as $portal_id ) {
+		rename ( $GLOBALS ['DOCKTHOR_PATH'] . "/apps/docking/daemon/pending/$portal_id", $GLOBALS ['DOCKTHOR_PATH'] . "/apps/docking/daemon/checking/$portal_id" );
+		shell_exec ( "nohup php " . $GLOBALS ['DOCKTHOR_PATH'] . "/apps/docking/daemon/daemon-check-pending.php '$uuid' '$portal_id' > /dev/null 2>/dev/null &" );
+		//shell_exec ( "nohup php " . $GLOBALS ['DOCKTHOR_PATH'] . "/apps/docking/daemon/daemon-check-pending.php '$uuid' '$portal_id'" );
+		
+		$count++;
+		if ( $count == $GLOBALS ['MAX_NUMBER_JOBS'] ) {
+			break;
+		}
+	}
+}
+
+$files = preg_grep ( '/^([^.])/', scandir ( $GLOBALS ['DOCKTHOR_PATH'] . "/apps/docking/daemon/finished" ) );
+
+echo "DAEMON FINISHED FILES:\n";
+foreach ( $files as $portal_id ) {
+	rename ( $GLOBALS['DOCKTHOR_PATH']."/apps/docking/daemon/finished/$portal_id", $GLOBALS['DOCKTHOR_PATH']."/apps/docking/daemon/checking/$portal_id" );
+	shell_exec ( "nohup php ". $GLOBALS['DOCKTHOR_PATH']."/apps/docking/daemon/daemon-check-finished.php '$uuid' '$portal_id' > /dev/null 2>/dev/null &" );
+}
+?>

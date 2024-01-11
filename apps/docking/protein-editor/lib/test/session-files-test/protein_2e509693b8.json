@@ -1,0 +1,2902 @@
+{
+    "E": {
+        "ALA": {
+            "6": {
+                "state": {
+                    "value": "ALA",
+                    "index": 20
+                },
+                "options": []
+            },
+            "8": {
+                "state": {
+                    "value": "ALA",
+                    "index": 22
+                },
+                "options": []
+            },
+            "24": {
+                "state": {
+                    "value": "ALA",
+                    "index": 38
+                },
+                "options": []
+            },
+            "56": {
+                "state": {
+                    "value": "ALA",
+                    "index": 70
+                },
+                "options": []
+            },
+            "83": {
+                "state": {
+                    "value": "ALA",
+                    "index": 97
+                },
+                "options": []
+            },
+            "110": {
+                "state": {
+                    "value": "ALA",
+                    "index": 124
+                },
+                "options": []
+            },
+            "128": {
+                "state": {
+                    "value": "ALA",
+                    "index": 143
+                },
+                "options": []
+            },
+            "132": {
+                "state": {
+                    "value": "ALA",
+                    "index": 147
+                },
+                "options": []
+            },
+            "133": {
+                "state": {
+                    "value": "ALA",
+                    "index": 148
+                },
+                "options": []
+            },
+            "173": {
+                "state": {
+                    "value": "ALA",
+                    "index": 188
+                },
+                "options": []
+            },
+            "190": {
+                "state": {
+                    "value": "ALA",
+                    "index": 206
+                },
+                "options": []
+            },
+            "202": {
+                "state": {
+                    "value": "ALA",
+                    "index": 218
+                },
+                "options": []
+            },
+            "207": {
+                "state": {
+                    "value": "ALA",
+                    "index": 223
+                },
+                "options": []
+            },
+            "216": {
+                "state": {
+                    "value": "ALA",
+                    "index": 232
+                },
+                "options": []
+            },
+            "217": {
+                "state": {
+                    "value": "ALA",
+                    "index": 233
+                },
+                "options": []
+            },
+            "224": {
+                "state": {
+                    "value": "ALA",
+                    "index": 240
+                },
+                "options": []
+            },
+            "282": {
+                "state": {
+                    "value": "ALA",
+                    "index": 298
+                },
+                "options": []
+            },
+            "288": {
+                "state": {
+                    "value": "ALA",
+                    "index": 304
+                },
+                "options": []
+            },
+            "296": {
+                "state": {
+                    "value": "ALA",
+                    "index": 312
+                },
+                "options": []
+            }
+        },
+        "ARG": {
+            "31": {
+                "state": {
+                    "value": "ARG",
+                    "index": 45
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            },
+            "42": {
+                "state": {
+                    "value": "ARG",
+                    "index": 56
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            },
+            "79": {
+                "state": {
+                    "value": "ARG",
+                    "index": 93
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            },
+            "119": {
+                "state": {
+                    "value": "ARG",
+                    "index": 133
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            },
+            "120": {
+                "state": {
+                    "value": "ARG",
+                    "index": 134
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            },
+            "123": {
+                "state": {
+                    "value": "ARG",
+                    "index": 137
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            },
+            "129": {
+                "state": {
+                    "value": "ARG",
+                    "index": 144
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            },
+            "150": {
+                "state": {
+                    "value": "ARG",
+                    "index": 165
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            },
+            "175": {
+                "state": {
+                    "value": "ARG",
+                    "index": 190
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            },
+            "179": {
+                "state": {
+                    "value": "ARG",
+                    "index": 194
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            },
+            "240": {
+                "state": {
+                    "value": "ARG",
+                    "index": 256
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            },
+            "254": {
+                "state": {
+                    "value": "ARG",
+                    "index": 270
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            },
+            "264": {
+                "state": {
+                    "value": "ARG",
+                    "index": 280
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            },
+            "292": {
+                "state": {
+                    "value": "ARG",
+                    "index": 308
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            },
+            "320": {
+                "state": {
+                    "value": "ARG",
+                    "index": 336
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            }
+        },
+        "ASN": {
+            "22": {
+                "state": {
+                    "value": "ASN",
+                    "index": 36
+                },
+                "options": []
+            },
+            "53": {
+                "state": {
+                    "value": "ASN",
+                    "index": 67
+                },
+                "options": []
+            },
+            "76": {
+                "state": {
+                    "value": "ASN",
+                    "index": 90
+                },
+                "options": []
+            },
+            "85": {
+                "state": {
+                    "value": "ASN",
+                    "index": 99
+                },
+                "options": []
+            },
+            "99": {
+                "state": {
+                    "value": "ASN",
+                    "index": 113
+                },
+                "options": []
+            },
+            "101": {
+                "state": {
+                    "value": "ASN",
+                    "index": 115
+                },
+                "options": []
+            },
+            "156": {
+                "state": {
+                    "value": "ASN",
+                    "index": 171
+                },
+                "options": []
+            },
+            "200": {
+                "state": {
+                    "value": "ASN",
+                    "index": 216
+                },
+                "options": []
+            },
+            "255": {
+                "state": {
+                    "value": "ASN",
+                    "index": 271
+                },
+                "options": []
+            },
+            "267": {
+                "state": {
+                    "value": "ASN",
+                    "index": 283
+                },
+                "options": []
+            },
+            "270": {
+                "state": {
+                    "value": "ASN",
+                    "index": 286
+                },
+                "options": []
+            },
+            "273": {
+                "state": {
+                    "value": "ASN",
+                    "index": 289
+                },
+                "options": []
+            },
+            "277": {
+                "state": {
+                    "value": "ASN",
+                    "index": 293
+                },
+                "options": []
+            },
+            "310": {
+                "state": {
+                    "value": "ASN",
+                    "index": 326
+                },
+                "options": []
+            },
+            "323": {
+                "state": {
+                    "value": "ASN",
+                    "index": 340
+                },
+                "options": []
+            }
+        },
+        "ASP": {
+            "11": {
+                "state": {
+                    "value": "ASP",
+                    "index": 25
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "27": {
+                "state": {
+                    "value": "ASP",
+                    "index": 41
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "30": {
+                "state": {
+                    "value": "ASP",
+                    "index": 44
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "61": {
+                "state": {
+                    "value": "ASP",
+                    "index": 75
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "98": {
+                "state": {
+                    "value": "ASP",
+                    "index": 112
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "146": {
+                "state": {
+                    "value": "ASP",
+                    "index": 161
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "151": {
+                "state": {
+                    "value": "ASP",
+                    "index": 166
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "160": {
+                "state": {
+                    "value": "ASP",
+                    "index": 175
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "169": {
+                "state": {
+                    "value": "ASP",
+                    "index": 184
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "204": {
+                "state": {
+                    "value": "ASP",
+                    "index": 220
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "225": {
+                "state": {
+                    "value": "ASP",
+                    "index": 241
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "248": {
+                "state": {
+                    "value": "ASP",
+                    "index": 264
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "251": {
+                "state": {
+                    "value": "ASP",
+                    "index": 267
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "260": {
+                "state": {
+                    "value": "ASP",
+                    "index": 276
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "274": {
+                "state": {
+                    "value": "ASP",
+                    "index": 290
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "285": {
+                "state": {
+                    "value": "ASP",
+                    "index": 301
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "307": {
+                "state": {
+                    "value": "ASP",
+                    "index": 323
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "312": {
+                "state": {
+                    "value": "ASP",
+                    "index": 328
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            },
+            "313": {
+                "state": {
+                    "value": "ASP",
+                    "index": 329
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            }
+        },
+        "CYS": {
+            "183": {
+                "state": {
+                    "value": "CYSH",
+                    "index": 199
+                },
+                "options": [
+                    "CYS",
+                    "CYSH",
+                    "CYSS"
+                ]
+            },
+            "326": {
+                "state": {
+                    "value": "CYSH",
+                    "index": 343
+                },
+                "options": [
+                    "CYS",
+                    "CYSH",
+                    "CYSS"
+                ]
+            }
+        },
+        "GLN": {
+            "21": {
+                "state": {
+                    "value": "GLN",
+                    "index": 35
+                },
+                "options": []
+            },
+            "25": {
+                "state": {
+                    "value": "GLN",
+                    "index": 39
+                },
+                "options": []
+            },
+            "28": {
+                "state": {
+                    "value": "GLN",
+                    "index": 42
+                },
+                "options": []
+            },
+            "63": {
+                "state": {
+                    "value": "GLN",
+                    "index": 77
+                },
+                "options": []
+            },
+            "70": {
+                "state": {
+                    "value": "GLN",
+                    "index": 84
+                },
+                "options": []
+            },
+            "82": {
+                "state": {
+                    "value": "GLN",
+                    "index": 96
+                },
+                "options": []
+            },
+            "134": {
+                "state": {
+                    "value": "GLN",
+                    "index": 149
+                },
+                "options": []
+            },
+            "161": {
+                "state": {
+                    "value": "GLN",
+                    "index": 176
+                },
+                "options": []
+            },
+            "162": {
+                "state": {
+                    "value": "GLN",
+                    "index": 177
+                },
+                "options": []
+            },
+            "166": {
+                "state": {
+                    "value": "GLN",
+                    "index": 181
+                },
+                "options": []
+            },
+            "226": {
+                "state": {
+                    "value": "GLN",
+                    "index": 242
+                },
+                "options": []
+            },
+            "229": {
+                "state": {
+                    "value": "GLN",
+                    "index": 245
+                },
+                "options": []
+            },
+            "258": {
+                "state": {
+                    "value": "GLN",
+                    "index": 274
+                },
+                "options": []
+            },
+            "291": {
+                "state": {
+                    "value": "GLN",
+                    "index": 307
+                },
+                "options": []
+            }
+        },
+        "GLU": {
+            "3": {
+                "state": {
+                    "value": "GLU",
+                    "index": 17
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "10": {
+                "state": {
+                    "value": "GLU",
+                    "index": 24
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "17": {
+                "state": {
+                    "value": "GLU",
+                    "index": 31
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "50": {
+                "state": {
+                    "value": "GLU",
+                    "index": 64
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "72": {
+                "state": {
+                    "value": "GLU",
+                    "index": 86
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "77": {
+                "state": {
+                    "value": "GLU",
+                    "index": 91
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "93": {
+                "state": {
+                    "value": "GLU",
+                    "index": 107
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "107": {
+                "state": {
+                    "value": "GLU",
+                    "index": 121
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "113": {
+                "state": {
+                    "value": "GLU",
+                    "index": 127
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "125": {
+                "state": {
+                    "value": "GLU",
+                    "index": 140
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "140": {
+                "state": {
+                    "value": "GLU",
+                    "index": 155
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "155": {
+                "state": {
+                    "value": "GLU",
+                    "index": 170
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "187": {
+                "state": {
+                    "value": "GLU",
+                    "index": 203
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "192": {
+                "state": {
+                    "value": "GLU",
+                    "index": 208
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "214": {
+                "state": {
+                    "value": "GLU",
+                    "index": 230
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "232": {
+                "state": {
+                    "value": "GLU",
+                    "index": 248
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "295": {
+                "state": {
+                    "value": "GLU",
+                    "index": 311
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "315": {
+                "state": {
+                    "value": "GLU",
+                    "index": 331
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "316": {
+                "state": {
+                    "value": "GLU",
+                    "index": 332
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "317": {
+                "state": {
+                    "value": "GLU",
+                    "index": 333
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "318": {
+                "state": {
+                    "value": "GLU",
+                    "index": 334
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "324": {
+                "state": {
+                    "value": "GLU",
+                    "index": 341
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "329": {
+                "state": {
+                    "value": "GLU",
+                    "index": 346
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            },
+            "332": {
+                "state": {
+                    "value": "GLU",
+                    "index": 349
+                },
+                "options": [
+                    "GLU",
+                    "GLUN1",
+                    "GLUN2"
+                ]
+            }
+        },
+        "GLY": {
+            "36": {
+                "state": {
+                    "value": "GLY",
+                    "index": 50
+                },
+                "options": []
+            },
+            "38": {
+                "state": {
+                    "value": "GLY",
+                    "index": 52
+                },
+                "options": []
+            },
+            "41": {
+                "state": {
+                    "value": "GLY",
+                    "index": 55
+                },
+                "options": []
+            },
+            "52": {
+                "state": {
+                    "value": "GLY",
+                    "index": 66
+                },
+                "options": []
+            },
+            "111": {
+                "state": {
+                    "value": "GLY",
+                    "index": 125
+                },
+                "options": []
+            },
+            "112": {
+                "state": {
+                    "value": "GLY",
+                    "index": 126
+                },
+                "options": []
+            },
+            "122": {
+                "state": {
+                    "value": "GLY",
+                    "index": 136
+                },
+                "options": []
+            },
+            "163": {
+                "state": {
+                    "value": "GLY",
+                    "index": 178
+                },
+                "options": []
+            },
+            "171": {
+                "state": {
+                    "value": "GLY",
+                    "index": 186
+                },
+                "options": []
+            },
+            "178": {
+                "state": {
+                    "value": "GLY",
+                    "index": 193
+                },
+                "options": []
+            },
+            "184": {
+                "state": {
+                    "value": "GLY",
+                    "index": 200
+                },
+                "options": []
+            },
+            "198": {
+                "state": {
+                    "value": "GLY",
+                    "index": 214
+                },
+                "options": []
+            },
+            "209": {
+                "state": {
+                    "value": "GLY",
+                    "index": 225
+                },
+                "options": []
+            },
+            "218": {
+                "state": {
+                    "value": "GLY",
+                    "index": 234
+                },
+                "options": []
+            },
+            "237": {
+                "state": {
+                    "value": "GLY",
+                    "index": 253
+                },
+                "options": []
+            },
+            "266": {
+                "state": {
+                    "value": "GLY",
+                    "index": 282
+                },
+                "options": []
+            },
+            "271": {
+                "state": {
+                    "value": "GLY",
+                    "index": 287
+                },
+                "options": []
+            },
+            "304": {
+                "state": {
+                    "value": "GLY",
+                    "index": 320
+                },
+                "options": []
+            },
+            "306": {
+                "state": {
+                    "value": "GLY",
+                    "index": 322
+                },
+                "options": []
+            },
+            "327": {
+                "state": {
+                    "value": "GLY",
+                    "index": 344
+                },
+                "options": []
+            }
+        },
+        "HIS": {
+            "48": {
+                "state": {
+                    "value": "HIS",
+                    "index": 62
+                },
+                "options": [
+                    "HISE",
+                    "HISD",
+                    "HISP"
+                ]
+            },
+            "54": {
+                "state": {
+                    "value": "HIS",
+                    "index": 68
+                },
+                "options": [
+                    "HISE",
+                    "HISD",
+                    "HISP"
+                ]
+            },
+            "73": {
+                "state": {
+                    "value": "HIS",
+                    "index": 87
+                },
+                "options": [
+                    "HISE",
+                    "HISD",
+                    "HISP"
+                ]
+            },
+            "117": {
+                "state": {
+                    "value": "HIS",
+                    "index": 131
+                },
+                "options": [
+                    "HISE",
+                    "HISD",
+                    "HISP"
+                ]
+            },
+            "127": {
+                "state": {
+                    "value": "HIS",
+                    "index": 142
+                },
+                "options": [
+                    "HISE",
+                    "HISD",
+                    "HISP"
+                ]
+            },
+            "143": {
+                "state": {
+                    "value": "HIS",
+                    "index": 158
+                },
+                "options": [
+                    "HISE",
+                    "HISD",
+                    "HISP"
+                ]
+            },
+            "244": {
+                "state": {
+                    "value": "HIS",
+                    "index": 260
+                },
+                "options": [
+                    "HISE",
+                    "HISD",
+                    "HISP"
+                ]
+            },
+            "278": {
+                "state": {
+                    "value": "HIS",
+                    "index": 294
+                },
+                "options": [
+                    "HISE",
+                    "HISD",
+                    "HISP"
+                ]
+            }
+        },
+        "ILE": {
+            "32": {
+                "state": {
+                    "value": "ILE",
+                    "index": 46
+                },
+                "options": []
+            },
+            "59": {
+                "state": {
+                    "value": "ILE",
+                    "index": 73
+                },
+                "options": []
+            },
+            "71": {
+                "state": {
+                    "value": "ILE",
+                    "index": 85
+                },
+                "options": []
+            },
+            "80": {
+                "state": {
+                    "value": "ILE",
+                    "index": 94
+                },
+                "options": []
+            },
+            "121": {
+                "state": {
+                    "value": "ILE",
+                    "index": 135
+                },
+                "options": []
+            },
+            "135": {
+                "state": {
+                    "value": "ILE",
+                    "index": 150
+                },
+                "options": []
+            },
+            "148": {
+                "state": {
+                    "value": "ILE",
+                    "index": 163
+                },
+                "options": []
+            },
+            "159": {
+                "state": {
+                    "value": "ILE",
+                    "index": 174
+                },
+                "options": []
+            },
+            "165": {
+                "state": {
+                    "value": "ILE",
+                    "index": 180
+                },
+                "options": []
+            },
+            "193": {
+                "state": {
+                    "value": "ILE",
+                    "index": 209
+                },
+                "options": []
+            },
+            "194": {
+                "state": {
+                    "value": "ILE",
+                    "index": 210
+                },
+                "options": []
+            },
+            "212": {
+                "state": {
+                    "value": "ILE",
+                    "index": 228
+                },
+                "options": []
+            },
+            "228": {
+                "state": {
+                    "value": "ILE",
+                    "index": 244
+                },
+                "options": []
+            },
+            "230": {
+                "state": {
+                    "value": "ILE",
+                    "index": 246
+                },
+                "options": []
+            },
+            "234": {
+                "state": {
+                    "value": "ILE",
+                    "index": 250
+                },
+                "options": []
+            },
+            "275": {
+                "state": {
+                    "value": "ILE",
+                    "index": 291
+                },
+                "options": []
+            },
+            "287": {
+                "state": {
+                    "value": "ILE",
+                    "index": 303
+                },
+                "options": []
+            },
+            "289": {
+                "state": {
+                    "value": "ILE",
+                    "index": 305
+                },
+                "options": []
+            },
+            "299": {
+                "state": {
+                    "value": "ILE",
+                    "index": 315
+                },
+                "options": []
+            },
+            "319": {
+                "state": {
+                    "value": "ILE",
+                    "index": 335
+                },
+                "options": []
+            },
+            "322": {
+                "state": {
+                    "value": "ILE",
+                    "index": 339
+                },
+                "options": []
+            }
+        },
+        "LEU": {
+            "5": {
+                "state": {
+                    "value": "LEU",
+                    "index": 19
+                },
+                "options": []
+            },
+            "13": {
+                "state": {
+                    "value": "LEU",
+                    "index": 27
+                },
+                "options": []
+            },
+            "26": {
+                "state": {
+                    "value": "LEU",
+                    "index": 40
+                },
+                "options": []
+            },
+            "35": {
+                "state": {
+                    "value": "LEU",
+                    "index": 49
+                },
+                "options": []
+            },
+            "45": {
+                "state": {
+                    "value": "LEU",
+                    "index": 59
+                },
+                "options": []
+            },
+            "60": {
+                "state": {
+                    "value": "LEU",
+                    "index": 74
+                },
+                "options": []
+            },
+            "68": {
+                "state": {
+                    "value": "LEU",
+                    "index": 82
+                },
+                "options": []
+            },
+            "75": {
+                "state": {
+                    "value": "LEU",
+                    "index": 89
+                },
+                "options": []
+            },
+            "81": {
+                "state": {
+                    "value": "LEU",
+                    "index": 95
+                },
+                "options": []
+            },
+            "89": {
+                "state": {
+                    "value": "LEU",
+                    "index": 103
+                },
+                "options": []
+            },
+            "92": {
+                "state": {
+                    "value": "LEU",
+                    "index": 106
+                },
+                "options": []
+            },
+            "102": {
+                "state": {
+                    "value": "LEU",
+                    "index": 116
+                },
+                "options": []
+            },
+            "118": {
+                "state": {
+                    "value": "LEU",
+                    "index": 132
+                },
+                "options": []
+            },
+            "137": {
+                "state": {
+                    "value": "LEU",
+                    "index": 152
+                },
+                "options": []
+            },
+            "142": {
+                "state": {
+                    "value": "LEU",
+                    "index": 157
+                },
+                "options": []
+            },
+            "145": {
+                "state": {
+                    "value": "LEU",
+                    "index": 160
+                },
+                "options": []
+            },
+            "147": {
+                "state": {
+                    "value": "LEU",
+                    "index": 162
+                },
+                "options": []
+            },
+            "152": {
+                "state": {
+                    "value": "LEU",
+                    "index": 167
+                },
+                "options": []
+            },
+            "157": {
+                "state": {
+                    "value": "LEU",
+                    "index": 172
+                },
+                "options": []
+            },
+            "158": {
+                "state": {
+                    "value": "LEU",
+                    "index": 173
+                },
+                "options": []
+            },
+            "182": {
+                "state": {
+                    "value": "LEU",
+                    "index": 198
+                },
+                "options": []
+            },
+            "189": {
+                "state": {
+                    "value": "LEU",
+                    "index": 205
+                },
+                "options": []
+            },
+            "195": {
+                "state": {
+                    "value": "LEU",
+                    "index": 211
+                },
+                "options": []
+            },
+            "208": {
+                "state": {
+                    "value": "LEU",
+                    "index": 224
+                },
+                "options": []
+            },
+            "211": {
+                "state": {
+                    "value": "LEU",
+                    "index": 227
+                },
+                "options": []
+            },
+            "249": {
+                "state": {
+                    "value": "LEU",
+                    "index": 265
+                },
+                "options": []
+            },
+            "252": {
+                "state": {
+                    "value": "LEU",
+                    "index": 268
+                },
+                "options": []
+            },
+            "253": {
+                "state": {
+                    "value": "LEU",
+                    "index": 269
+                },
+                "options": []
+            },
+            "256": {
+                "state": {
+                    "value": "LEU",
+                    "index": 272
+                },
+                "options": []
+            },
+            "257": {
+                "state": {
+                    "value": "LEU",
+                    "index": 273
+                },
+                "options": []
+            },
+            "261": {
+                "state": {
+                    "value": "LEU",
+                    "index": 277
+                },
+                "options": []
+            },
+            "268": {
+                "state": {
+                    "value": "LEU",
+                    "index": 284
+                },
+                "options": []
+            }
+        },
+        "LYS": {
+            "2": {
+                "state": {
+                    "value": "LYS",
+                    "index": 16
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "7": {
+                "state": {
+                    "value": "LYS",
+                    "index": 21
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "9": {
+                "state": {
+                    "value": "LYS",
+                    "index": 23
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "14": {
+                "state": {
+                    "value": "LYS",
+                    "index": 28
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "15": {
+                "state": {
+                    "value": "LYS",
+                    "index": 29
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "33": {
+                "state": {
+                    "value": "LYS",
+                    "index": 47
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "47": {
+                "state": {
+                    "value": "LYS",
+                    "index": 61
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "49": {
+                "state": {
+                    "value": "LYS",
+                    "index": 63
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "58": {
+                "state": {
+                    "value": "LYS",
+                    "index": 72
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "62": {
+                "state": {
+                    "value": "LYS",
+                    "index": 76
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "64": {
+                "state": {
+                    "value": "LYS",
+                    "index": 78
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "67": {
+                "state": {
+                    "value": "LYS",
+                    "index": 81
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "69": {
+                "state": {
+                    "value": "LYS",
+                    "index": 83
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "78": {
+                "state": {
+                    "value": "LYS",
+                    "index": 92
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "91": {
+                "state": {
+                    "value": "LYS",
+                    "index": 105
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "97": {
+                "state": {
+                    "value": "LYS",
+                    "index": 111
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "153": {
+                "state": {
+                    "value": "LYS",
+                    "index": 168
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "174": {
+                "state": {
+                    "value": "LYS",
+                    "index": 189
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "177": {
+                "state": {
+                    "value": "LYS",
+                    "index": 192
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "197": {
+                "state": {
+                    "value": "LYS",
+                    "index": 213
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "201": {
+                "state": {
+                    "value": "LYS",
+                    "index": 217
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "233": {
+                "state": {
+                    "value": "LYS",
+                    "index": 249
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "238": {
+                "state": {
+                    "value": "LYS",
+                    "index": 254
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "250": {
+                "state": {
+                    "value": "LYS",
+                    "index": 266
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "263": {
+                "state": {
+                    "value": "LYS",
+                    "index": 279
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "269": {
+                "state": {
+                    "value": "LYS",
+                    "index": 285
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "276": {
+                "state": {
+                    "value": "LYS",
+                    "index": 292
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "279": {
+                "state": {
+                    "value": "LYS",
+                    "index": 295
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "293": {
+                "state": {
+                    "value": "LYS",
+                    "index": 309
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "301": {
+                "state": {
+                    "value": "LYS",
+                    "index": 317
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "303": {
+                "state": {
+                    "value": "LYS",
+                    "index": 319
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "325": {
+                "state": {
+                    "value": "LYS",
+                    "index": 342
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            },
+            "328": {
+                "state": {
+                    "value": "LYS",
+                    "index": 345
+                },
+                "options": [
+                    "LYS",
+                    "LYSN"
+                ]
+            }
+        },
+        "MET": {
+            "44": {
+                "state": {
+                    "value": "MET",
+                    "index": 58
+                },
+                "options": []
+            },
+            "57": {
+                "state": {
+                    "value": "MET",
+                    "index": 71
+                },
+                "options": []
+            },
+            "104": {
+                "state": {
+                    "value": "MET",
+                    "index": 118
+                },
+                "options": []
+            },
+            "106": {
+                "state": {
+                    "value": "MET",
+                    "index": 120
+                },
+                "options": []
+            },
+            "114": {
+                "state": {
+                    "value": "MET",
+                    "index": 128
+                },
+                "options": []
+            },
+            "215": {
+                "state": {
+                    "value": "MET",
+                    "index": 231
+                },
+                "options": []
+            }
+        },
+        "PHE": {
+            "4": {
+                "state": {
+                    "value": "PHE",
+                    "index": 18
+                },
+                "options": []
+            },
+            "12": {
+                "state": {
+                    "value": "PHE",
+                    "index": 26
+                },
+                "options": []
+            },
+            "29": {
+                "state": {
+                    "value": "PHE",
+                    "index": 43
+                },
+                "options": []
+            },
+            "40": {
+                "state": {
+                    "value": "PHE",
+                    "index": 54
+                },
+                "options": []
+            },
+            "86": {
+                "state": {
+                    "value": "PHE",
+                    "index": 100
+                },
+                "options": []
+            },
+            "88": {
+                "state": {
+                    "value": "PHE",
+                    "index": 102
+                },
+                "options": []
+            },
+            "94": {
+                "state": {
+                    "value": "PHE",
+                    "index": 108
+                },
+                "options": []
+            },
+            "96": {
+                "state": {
+                    "value": "PHE",
+                    "index": 110
+                },
+                "options": []
+            },
+            "115": {
+                "state": {
+                    "value": "PHE",
+                    "index": 129
+                },
+                "options": []
+            },
+            "124": {
+                "state": {
+                    "value": "PHE",
+                    "index": 138
+                },
+                "options": []
+            },
+            "130": {
+                "state": {
+                    "value": "PHE",
+                    "index": 145
+                },
+                "options": []
+            },
+            "139": {
+                "state": {
+                    "value": "PHE",
+                    "index": 154
+                },
+                "options": []
+            },
+            "170": {
+                "state": {
+                    "value": "PHE",
+                    "index": 185
+                },
+                "options": []
+            },
+            "172": {
+                "state": {
+                    "value": "PHE",
+                    "index": 187
+                },
+                "options": []
+            },
+            "222": {
+                "state": {
+                    "value": "PHE",
+                    "index": 238
+                },
+                "options": []
+            },
+            "223": {
+                "state": {
+                    "value": "PHE",
+                    "index": 239
+                },
+                "options": []
+            },
+            "241": {
+                "state": {
+                    "value": "PHE",
+                    "index": 257
+                },
+                "options": []
+            },
+            "245": {
+                "state": {
+                    "value": "PHE",
+                    "index": 261
+                },
+                "options": []
+            },
+            "265": {
+                "state": {
+                    "value": "PHE",
+                    "index": 281
+                },
+                "options": []
+            },
+            "281": {
+                "state": {
+                    "value": "PHE",
+                    "index": 297
+                },
+                "options": []
+            },
+            "298": {
+                "state": {
+                    "value": "PHE",
+                    "index": 314
+                },
+                "options": []
+            },
+            "302": {
+                "state": {
+                    "value": "PHE",
+                    "index": 318
+                },
+                "options": []
+            },
+            "311": {
+                "state": {
+                    "value": "PHE",
+                    "index": 327
+                },
+                "options": []
+            },
+            "330": {
+                "state": {
+                    "value": "PHE",
+                    "index": 347
+                },
+                "options": []
+            }
+        },
+        "PRO": {
+            "19": {
+                "state": {
+                    "value": "PRO",
+                    "index": 33
+                },
+                "options": []
+            },
+            "87": {
+                "state": {
+                    "value": "PRO",
+                    "index": 101
+                },
+                "options": []
+            },
+            "126": {
+                "state": {
+                    "value": "PRO",
+                    "index": 141
+                },
+                "options": []
+            },
+            "154": {
+                "state": {
+                    "value": "PRO",
+                    "index": 169
+                },
+                "options": []
+            },
+            "186": {
+                "state": {
+                    "value": "PRO",
+                    "index": 202
+                },
+                "options": []
+            },
+            "191": {
+                "state": {
+                    "value": "PRO",
+                    "index": 207
+                },
+                "options": []
+            },
+            "220": {
+                "state": {
+                    "value": "PRO",
+                    "index": 236
+                },
+                "options": []
+            },
+            "221": {
+                "state": {
+                    "value": "PRO",
+                    "index": 237
+                },
+                "options": []
+            },
+            "227": {
+                "state": {
+                    "value": "PRO",
+                    "index": 243
+                },
+                "options": []
+            },
+            "242": {
+                "state": {
+                    "value": "PRO",
+                    "index": 258
+                },
+                "options": []
+            },
+            "297": {
+                "state": {
+                    "value": "PRO",
+                    "index": 313
+                },
+                "options": []
+            },
+            "300": {
+                "state": {
+                    "value": "PRO",
+                    "index": 316
+                },
+                "options": []
+            },
+            "305": {
+                "state": {
+                    "value": "PRO",
+                    "index": 321
+                },
+                "options": []
+            }
+        },
+        "SER": {
+            "20": {
+                "state": {
+                    "value": "SER",
+                    "index": 34
+                },
+                "options": []
+            },
+            "39": {
+                "state": {
+                    "value": "SER",
+                    "index": 53
+                },
+                "options": []
+            },
+            "51": {
+                "state": {
+                    "value": "SER",
+                    "index": 65
+                },
+                "options": []
+            },
+            "95": {
+                "state": {
+                    "value": "SER",
+                    "index": 109
+                },
+                "options": []
+            },
+            "100": {
+                "state": {
+                    "value": "SER",
+                    "index": 114
+                },
+                "options": []
+            },
+            "116": {
+                "state": {
+                    "value": "SER",
+                    "index": 130
+                },
+                "options": []
+            },
+            "144": {
+                "state": {
+                    "value": "SER",
+                    "index": 159
+                },
+                "options": []
+            },
+            "196": {
+                "state": {
+                    "value": "SER",
+                    "index": 212
+                },
+                "options": []
+            },
+            "236": {
+                "state": {
+                    "value": "SER",
+                    "index": 252
+                },
+                "options": []
+            },
+            "243": {
+                "state": {
+                    "value": "SER",
+                    "index": 259
+                },
+                "options": []
+            },
+            "246": {
+                "state": {
+                    "value": "SER",
+                    "index": 262
+                },
+                "options": []
+            },
+            "247": {
+                "state": {
+                    "value": "SER",
+                    "index": 263
+                },
+                "options": []
+            },
+            "309": {
+                "state": {
+                    "value": "SER",
+                    "index": 325
+                },
+                "options": []
+            }
+        },
+        "THR": {
+            "18": {
+                "state": {
+                    "value": "THR",
+                    "index": 32
+                },
+                "options": []
+            },
+            "23": {
+                "state": {
+                    "value": "THR",
+                    "index": 37
+                },
+                "options": []
+            },
+            "34": {
+                "state": {
+                    "value": "THR",
+                    "index": 48
+                },
+                "options": []
+            },
+            "37": {
+                "state": {
+                    "value": "THR",
+                    "index": 51
+                },
+                "options": []
+            },
+            "74": {
+                "state": {
+                    "value": "THR",
+                    "index": 88
+                },
+                "options": []
+            },
+            "138": {
+                "state": {
+                    "value": "THR",
+                    "index": 153
+                },
+                "options": []
+            },
+            "168": {
+                "state": {
+                    "value": "THR",
+                    "index": 183
+                },
+                "options": []
+            },
+            "180": {
+                "state": {
+                    "value": "THR",
+                    "index": 195
+                },
+                "options": []
+            },
+            "185": {
+                "state": {
+                    "value": "THR",
+                    "index": 201
+                },
+                "options": []
+            },
+            "262": {
+                "state": {
+                    "value": "THR",
+                    "index": 278
+                },
+                "options": []
+            },
+            "283": {
+                "state": {
+                    "value": "THR",
+                    "index": 299
+                },
+                "options": []
+            },
+            "284": {
+                "state": {
+                    "value": "THR",
+                    "index": 300
+                },
+                "options": []
+            },
+            "308": {
+                "state": {
+                    "value": "THR",
+                    "index": 324
+                },
+                "options": []
+            },
+            "331": {
+                "state": {
+                    "value": "THR",
+                    "index": 348
+                },
+                "options": []
+            }
+        },
+        "TRP": {
+            "16": {
+                "state": {
+                    "value": "TRP",
+                    "index": 30
+                },
+                "options": []
+            },
+            "181": {
+                "state": {
+                    "value": "TRP",
+                    "index": 196
+                },
+                "options": []
+            },
+            "205": {
+                "state": {
+                    "value": "TRP",
+                    "index": 221
+                },
+                "options": []
+            },
+            "206": {
+                "state": {
+                    "value": "TRP",
+                    "index": 222
+                },
+                "options": []
+            },
+            "280": {
+                "state": {
+                    "value": "TRP",
+                    "index": 296
+                },
+                "options": []
+            },
+            "286": {
+                "state": {
+                    "value": "TRP",
+                    "index": 302
+                },
+                "options": []
+            }
+        },
+        "TYR": {
+            "55": {
+                "state": {
+                    "value": "TYR",
+                    "index": 69
+                },
+                "options": []
+            },
+            "103": {
+                "state": {
+                    "value": "TYR",
+                    "index": 117
+                },
+                "options": []
+            },
+            "108": {
+                "state": {
+                    "value": "TYR",
+                    "index": 122
+                },
+                "options": []
+            },
+            "131": {
+                "state": {
+                    "value": "TYR",
+                    "index": 146
+                },
+                "options": []
+            },
+            "141": {
+                "state": {
+                    "value": "TYR",
+                    "index": 156
+                },
+                "options": []
+            },
+            "149": {
+                "state": {
+                    "value": "TYR",
+                    "index": 164
+                },
+                "options": []
+            },
+            "164": {
+                "state": {
+                    "value": "TYR",
+                    "index": 179
+                },
+                "options": []
+            },
+            "188": {
+                "state": {
+                    "value": "TYR",
+                    "index": 204
+                },
+                "options": []
+            },
+            "199": {
+                "state": {
+                    "value": "TYR",
+                    "index": 215
+                },
+                "options": []
+            },
+            "213": {
+                "state": {
+                    "value": "TYR",
+                    "index": 229
+                },
+                "options": []
+            },
+            "219": {
+                "state": {
+                    "value": "TYR",
+                    "index": 235
+                },
+                "options": []
+            },
+            "231": {
+                "state": {
+                    "value": "TYR",
+                    "index": 247
+                },
+                "options": []
+            },
+            "290": {
+                "state": {
+                    "value": "TYR",
+                    "index": 306
+                },
+                "options": []
+            },
+            "314": {
+                "state": {
+                    "value": "TYR",
+                    "index": 330
+                },
+                "options": []
+            }
+        },
+        "VAL": {
+            "43": {
+                "state": {
+                    "value": "VAL",
+                    "index": 57
+                },
+                "options": []
+            },
+            "46": {
+                "state": {
+                    "value": "VAL",
+                    "index": 60
+                },
+                "options": []
+            },
+            "65": {
+                "state": {
+                    "value": "VAL",
+                    "index": 79
+                },
+                "options": []
+            },
+            "66": {
+                "state": {
+                    "value": "VAL",
+                    "index": 80
+                },
+                "options": []
+            },
+            "84": {
+                "state": {
+                    "value": "VAL",
+                    "index": 98
+                },
+                "options": []
+            },
+            "90": {
+                "state": {
+                    "value": "VAL",
+                    "index": 104
+                },
+                "options": []
+            },
+            "105": {
+                "state": {
+                    "value": "VAL",
+                    "index": 119
+                },
+                "options": []
+            },
+            "109": {
+                "state": {
+                    "value": "VAL",
+                    "index": 123
+                },
+                "options": []
+            },
+            "136": {
+                "state": {
+                    "value": "VAL",
+                    "index": 151
+                },
+                "options": []
+            },
+            "167": {
+                "state": {
+                    "value": "VAL",
+                    "index": 182
+                },
+                "options": []
+            },
+            "176": {
+                "state": {
+                    "value": "VAL",
+                    "index": 191
+                },
+                "options": []
+            },
+            "203": {
+                "state": {
+                    "value": "VAL",
+                    "index": 219
+                },
+                "options": []
+            },
+            "210": {
+                "state": {
+                    "value": "VAL",
+                    "index": 226
+                },
+                "options": []
+            },
+            "235": {
+                "state": {
+                    "value": "VAL",
+                    "index": 251
+                },
+                "options": []
+            },
+            "239": {
+                "state": {
+                    "value": "VAL",
+                    "index": 255
+                },
+                "options": []
+            },
+            "259": {
+                "state": {
+                    "value": "VAL",
+                    "index": 275
+                },
+                "options": []
+            },
+            "272": {
+                "state": {
+                    "value": "VAL",
+                    "index": 288
+                },
+                "options": []
+            },
+            "294": {
+                "state": {
+                    "value": "VAL",
+                    "index": 310
+                },
+                "options": []
+            },
+            "321": {
+                "state": {
+                    "value": "VAL",
+                    "index": 337
+                },
+                "options": []
+            }
+        }
+    },
+    "I": {
+        "ALA": {
+            "4": {
+                "state": {
+                    "value": "ALA",
+                    "index": 8
+                },
+                "options": []
+            },
+            "8": {
+                "state": {
+                    "value": "ALA",
+                    "index": 12
+                },
+                "options": []
+            },
+            "17": {
+                "state": {
+                    "value": "ALA",
+                    "index": 21
+                },
+                "options": []
+            }
+        },
+        "ARG": {
+            "11": {
+                "state": {
+                    "value": "ARG",
+                    "index": 15
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            },
+            "14": {
+                "state": {
+                    "value": "ARG",
+                    "index": 18
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            },
+            "15": {
+                "state": {
+                    "value": "ARG",
+                    "index": 19
+                },
+                "options": [
+                    "ARG",
+                    "ARGN1",
+                    "ARGN2"
+                ]
+            }
+        },
+        "ASN": {
+            "16": {
+                "state": {
+                    "value": "ASN",
+                    "index": 20
+                },
+                "options": []
+            }
+        },
+        "ASP": {
+            "5": {
+                "state": {
+                    "value": "ASP",
+                    "index": 9
+                },
+                "options": [
+                    "ASP",
+                    "ASPN1",
+                    "ASPN2"
+                ]
+            }
+        },
+        "GLY": {
+            "10": {
+                "state": {
+                    "value": "GLY",
+                    "index": 14
+                },
+                "options": []
+            },
+            "13": {
+                "state": {
+                    "value": "GLY",
+                    "index": 17
+                },
+                "options": []
+            }
+        },
+        "HIS": {
+            "19": {
+                "state": {
+                    "value": "HIS",
+                    "index": 23
+                },
+                "options": [
+                    "HISE",
+                    "HISD",
+                    "HISP"
+                ]
+            }
+        },
+        "ILE": {
+            "7": {
+                "state": {
+                    "value": "ILE",
+                    "index": 11
+                },
+                "options": []
+            },
+            "18": {
+                "state": {
+                    "value": "ILE",
+                    "index": 22
+                },
+                "options": []
+            }
+        },
+        "PHE": {
+            "6": {
+                "state": {
+                    "value": "PHE",
+                    "index": 10
+                },
+                "options": []
+            }
+        },
+        "SER": {
+            "9": {
+                "state": {
+                    "value": "SER",
+                    "index": 13
+                },
+                "options": []
+            }
+        },
+        "THR": {
+            "2": {
+                "state": {
+                    "value": "THR",
+                    "index": 6
+                },
+                "options": []
+            },
+            "12": {
+                "state": {
+                    "value": "THR",
+                    "index": 16
+                },
+                "options": []
+            }
+        },
+        "TYR": {
+            "3": {
+                "state": {
+                    "value": "TYR",
+                    "index": 7
+                },
+                "options": []
+            }
+        }
+    }
+}

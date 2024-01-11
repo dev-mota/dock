@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_45.sdf 1
+formula          C20H28N2O5S
+mol_weight       408.512
+exact_mass       408.172
+canonical_SMILES CCOc1ccccc1OCCN[C@@H](Cc1ccc(c(c1)S(=O)(=O)N)OC)C	
+
+InChI            InChI=1S/C20H28N2O5S/c1-4-26-17-7-5-6-8-18(17)27-12-11-22-15(2)13-16-9-10-19(25-3)20(14-16)28(21,23)24/h5-10,14-15,22H,4,11-13H2,1-3H3,(H2,21,23,24)/t15-/m1/s1
+
+num_atoms        56
+num_bonds        57
+num_residues     0
+num_rotors       11
+sequence         -
+num_rings        2
+logP             4.5129
+PSA              108.26
+MR               108.236
+$$$$

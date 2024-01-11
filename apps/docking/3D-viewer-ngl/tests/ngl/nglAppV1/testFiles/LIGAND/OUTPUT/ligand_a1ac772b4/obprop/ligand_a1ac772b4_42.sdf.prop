@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_42.sdf 1
+formula          C17H27NO2
+mol_weight       277.402
+exact_mass       277.204
+canonical_SMILES COc1ccc(cc1)[C@H](C1(O)CCCCC1)CN(C)C	
+
+InChI            InChI=1S/C17H27NO2/c1-18(2)13-16(17(19)11-5-4-6-12-17)14-7-9-15(20-3)10-8-14/h7-10,16,19H,4-6,11-13H2,1-3H3/t16-/m1/s1
+
+num_atoms        47
+num_bonds        48
+num_residues     0
+num_rotors       5
+sequence         -
+num_rings        2
+logP             3.0356
+PSA              32.7
+MR               83.1448
+$$$$

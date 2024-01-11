@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_95.sdf 1
+formula          C23H20F3N5O2S2
+mol_weight       519.562
+exact_mass       519.101
+canonical_SMILES Nc1nccc(n1)c1sc(nc1c1cccc(c1F)NS(=O)(=O)c1c(F)cccc1F)C(C)(C)C	
+
+InChI            InChI=1S/C23H20F3N5O2S2/c1-23(2,3)21-30-18(19(34-21)16-10-11-28-22(27)29-16)12-6-4-9-15(17(12)26)31-35(32,33)20-13(24)7-5-8-14(20)25/h4-11,31H,1-3H3,(H2,27,28,29)
+
+num_atoms        55
+num_bonds        58
+num_residues     0
+num_rotors       6
+sequence         -
+num_rings        4
+logP             7.0999
+PSA              147.48
+MR               129.238
+$$$$

@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_76.sdf 1
+formula          C11H21N
+mol_weight       167.291
+exact_mass       167.167
+canonical_SMILES CN[C@]1(C)[C@@H]2CC[C@H](C1(C)C)C2	
+
+InChI            InChI=1S/C11H21N/c1-10(2)8-5-6-9(7-8)11(10,3)12-4/h8-9,12H,5-7H2,1-4H3/t8-,9+,11+/m0/s1
+
+num_atoms        33
+num_bonds        34
+num_residues     0
+num_rotors       1
+sequence         -
+num_rings        2
+logP             2.8115
+PSA              12.03
+MR               53.3427
+$$$$

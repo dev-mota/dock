@@ -1,0 +1,34 @@
+ol.circles-list {
+    list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+    
+    margin: 0;
+    margin-left: 4em;
+    padding: 0;
+         
+    counter-reset: li-counter;
+}
+ol.circles-list > li{
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 0.5em;
+    min-height: 3em;
+}
+ol.circles-list > li:before {
+    position: absolute;
+    top: 0;
+    left: -1.33em;
+    width: 1.2em;
+    height: 1.2em;
+     
+    font-size: 2em;
+    line-height: 1.0;
+    text-align: center;
+    color: #1f9797;
+ 
+    border: 2px solid #1f9797;
+    border-radius: 50%;
+    background-color: white;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}

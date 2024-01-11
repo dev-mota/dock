@@ -1,0 +1,18 @@
+name             ZINC00000480
+formula          C18H21N2S+
+mol_weight       297.438
+exact_mass       297.143
+canonical_SMILES C[N@H+]1CC[C@@H](C1)CN1c2ccccc2Sc2c1cccc2	ZINC00000480
+
+InChI            InChI=1S/C18H20N2S/c1-19-11-10-14(12-19)13-20-15-6-2-4-8-17(15)21-18-9-5-3-7-16(18)20/h2-9,14H,10-13H2,1H3/p+1/t14-/m0/s1
+
+num_atoms        42
+num_bonds        45
+num_residues     0
+num_rotors       2
+sequence         -
+num_rings        4
+logP             4.4581
+PSA              32.98
+MR               97.6397
+$$$$

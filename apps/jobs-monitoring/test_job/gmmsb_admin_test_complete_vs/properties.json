@@ -1,0 +1,42 @@
+{
+    "gmmsb_admin_test_complete_vs": {
+        "portal-submission-date": "0000-00-00 00:00:00",
+        "email": [
+            "dockthor@lncc.br"
+        ],
+        "submissions": {
+            "pending": {
+                "args": {
+                    "gc": {
+                        "xc": "16",
+                        "yc": "6",
+                        "zc": "20"
+                    },
+                    "gs": {
+                        "x": "11",
+                        "y": "11",
+                        "z": "11"
+                    },
+                    "naval": "1000000",
+                    "popsize": "750",
+                    "seed": "-1985",
+                    "rstep": "0.25",
+                    "nrun": "12",
+                    "softvdw": 0.35
+                },
+                "file-args": {
+                    "r": [
+                        "protein.in"
+                    ],
+                    "l": [
+                        "3htb_ligand_Hmaestro.mol2",
+                        "3htb_ligandH_maestro.pdb"
+                    ],
+                    "c": [
+                        "cofactor.top"
+                    ]
+                }
+            }
+        }
+    }
+}

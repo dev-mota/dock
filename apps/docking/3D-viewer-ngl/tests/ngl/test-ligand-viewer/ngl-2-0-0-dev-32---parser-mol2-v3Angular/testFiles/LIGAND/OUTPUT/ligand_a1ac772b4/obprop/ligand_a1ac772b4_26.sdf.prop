@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_26.sdf 1
+formula          C12H13N
+mol_weight       171.238
+exact_mass       171.105
+canonical_SMILES C#CCN[C@@H]1CCc2c1cccc2	
+
+InChI            InChI=1S/C12H13N/c1-2-9-13-12-8-7-10-5-3-4-6-11(10)12/h1,3-6,12-13H,7-9H2/t12-/m1/s1
+
+num_atoms        26
+num_bonds        27
+num_residues     0
+num_rotors       2
+sequence         -
+num_rings        2
+logP             2.2876
+PSA              12.03
+MR               54.4517
+$$$$

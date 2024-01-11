@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_91.sdf 1
+formula          C26H28ClNO
+mol_weight       405.96
+exact_mass       405.186
+canonical_SMILES ClCC/C(=C(\c1ccccc1)/c1ccc(cc1)OCCN(C)C)/c1ccccc1	
+
+InChI            InChI=1S/C26H28ClNO/c1-28(2)19-20-29-24-15-13-23(14-16-24)26(22-11-7-4-8-12-22)25(17-18-27)21-9-5-3-6-10-21/h3-16H,17-20H2,1-2H3/b26-25-
+
+num_atoms        57
+num_bonds        59
+num_residues     0
+num_rotors       9
+sequence         -
+num_rings        3
+logP             6.215
+PSA              12.47
+MR               124.518
+$$$$

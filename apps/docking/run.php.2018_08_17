@@ -1,0 +1,155 @@
+<?php
+//require_once 'environment/environment-config.php';
+require_once '../../conf/globals-dockthor.php';
+require_once 'lib/sinapad-rest/rest-php-adapter.php';
+require_once 'exception/upload-exception.php';
+require_once 'lib/utils/email-utils.php';
+require_once 'lib/utils/database-queries.php';
+
+include "job-properties-mananger.php";
+
+session_start ();
+$session_id = session_id ();
+
+$args_array = array();
+$files_array = array();
+
+$jobName = $_POST ['jobName'];
+$portal_id = uniqid(str_replace(" ", "_", $jobName) . "_");
+
+$args_array['gc'] = array();
+$args_array['gc']['xc'] = (isset($_POST ['xGridCenter']) && $_POST ['xGridCenter'] != '' && $_POST ['xGridCenter'] != null) ? $_POST ['xGridCenter'] : "0" ;
+$args_array['gc']['yc'] = (isset($_POST ['yGridCenter']) && $_POST ['yGridCenter'] != '' && $_POST ['yGridCenter'] != null) ? $_POST ['yGridCenter'] : "0" ;
+$args_array['gc']['zc'] = (isset($_POST ['zGridCenter']) && $_POST ['zGridCenter'] != '' && $_POST ['zGridCenter'] != null) ? $_POST ['zGridCenter'] : "0";
+
+if(isset($_POST['xGridSize']) || isset($_POST['yGridSize']) || isset($_POST['zGridSize'])){
+	$args_array['gs'] = array();
+	$args_array['gs']['x'] = (isset($_POST ['xGridSize']) && $_POST ['xGridSize'] != '' && $_POST ['xGridSize'] != null) ? $_POST ['xGridSize'] : "0" ;
+	$args_array['gs']['y'] = (isset($_POST ['yGridSize']) && $_POST ['yGridSize'] != '' && $_POST ['yGridSize'] != null) ? $_POST ['yGridSize'] : "0" ;
+	$args_array['gs']['z'] = (isset($_POST ['zGridSize']) && $_POST ['zGridSize'] != '' && $_POST ['zGridSize'] != null) ? $_POST ['zGridSize'] : "0" ;
+}
+
+if(isset($_POST['naval'])){
+	$args_array['naval'] = $_POST['naval'];
+}
+
+if(isset($_POST['popsize'])){
+	$args_array['popsize'] = $_POST['popsize'];
+}
+
+if(isset($_POST['seed'])){
+	$args_array['seed'] = $_POST['seed'];
+}
+
+if(isset($_POST['rstep'])){
+	$args_array['rstep'] = $_POST['rstep'];
+}
+
+if(isset($_POST['nrun'])){
+	$args_array['nrun'] = $_POST['nrun'];
+}
+
+if(isset($_POST['cfactor'])){
+	$args_array['cfactor'] = $_POST['cfactor'];
+}
+
+$job_portal_path = "daemon/jobs/" . $portal_id;
+
+if (mkdir ( $job_portal_path )) { //tenta criar diretório em daemon/jobs
+	if(isset($_POST['proteinsList'])){
+		$proteinsList = json_decode ($_POST['proteinsList'], true);
+		mkdir("$job_portal_path/PROTEIN");
+		$files_array['r'] = array();
+		foreach($proteinsList as $protein){
+			$file_name_without_extension = preg_replace ( '/\\.[^.\\s]{2,3}$/', '', $protein ); // retirando extensão
+			foreach ( glob ( "session-files/$session_id/DOCKING/PROTEIN/$file_name_without_extension.in" ) as $in_file ) {
+				copy ( $in_file, "$job_portal_path/PROTEIN/" . basename ( $in_file ) );
+// 				$files_array['r'] = basename ( $in_file ) ;
+// 				if($files_array['r'] == null){
+// 					$files_array['r'] = array();
+// 				}
+				array_push($files_array['r'], basename ( $in_file ));
+				break;
+			}
+		}
+	}
+	
+	if(isset($_POST['ligandsList'])){
+		$ligandsList = json_decode ($_POST['ligandsList'], true);
+		mkdir("$job_portal_path/LIGAND");
+		$files_array['l'] = array();
+		foreach($ligandsList as $ligand){
+			foreach ( glob ( "session-files/$session_id/DOCKING/LIGAND/OUTPUT/$ligand/*.top" ) as $ligand_top_file ) {
+				copy ( $ligand_top_file, "$job_portal_path/LIGAND/" . basename ( $ligand_top_file ) );
+				//$files_array['l'] = basename ( $ligand_top_file ) ;
+// 				if($files_array['l'] == null){
+// 					$files_array['l'] = array();
+// 				}
+				array_push($files_array['l'], basename ( $ligand_top_file ));
+			}			
+		}
+		copy("session-files/$session_id/DOCKING/LIGAND/ligand_mapfile.csv", "$job_portal_path/LIGAND/ligand_mapfile.csv");
+	}
+	
+	if(isset($_POST['cofactorList'])){
+		$cofactorList = json_decode ($_POST['cofactorList'], true);
+		mkdir("$job_portal_path/COFACTOR");
+		$files_array['c'] = array();
+		foreach($cofactorList as $cofactor){
+			foreach ( glob ( "session-files/$session_id/DOCKING/COFACTOR/OUTPUT/$cofactor/*.top" ) as $cofactor_top_file ) {
+				copy ( $cofactor_top_file, "$job_portal_path/COFACTOR/" . basename ( $cofactor_top_file ) );
+				//$files_array['l'] = basename ( $ligand_top_file ) ;
+// 				if($files_array['c'] == null){
+// 					$files_array['c'] = array();
+// 				}
+				array_push($files_array['c'], basename ( $cofactor_top_file ));
+				break;
+			}
+		}
+		copy("session-files/$session_id/DOCKING/COFACTOR/cofactor_mapfile.csv", "$job_portal_path/COFACTOR/cofactor_mapfile.csv");
+	}
+	
+	if(isset($_POST['emails'])){
+		$email_objects = json_decode ($_POST['emails'], true);
+		$emails = array();
+		foreach ($email_objects as $email_ob){
+			array_push($emails, $email_ob['email']);
+			
+			if(isset($_POST['subscribe'])){
+				$databaseQueries = new DatabaseQueries();
+				$databaseQueries->subscribeUserToNews($email_ob['email']);
+			}
+		}
+	}
+	
+	$job_properties = array();
+	$job_properties[$portal_id] = array();
+	$job_properties[$portal_id]["portal-submission-date"] = date("Y-m-d H:i:s");
+	$job_properties[$portal_id]["email"] = $emails;
+	$job_properties[$portal_id]["submissions"]["pending"] = ["args" => $args_array, "file-args" => $files_array];
+	
+	$jobPropertiesMananger = JobPropertiesMananger::getInstance();
+	$jobPropertiesMananger->saveJobProperties($portal_id, $job_properties);
+	
+	file_put_contents ( $GLOBALS ['DOCKTHOR_PATH'] . "/apps/docking/daemon/pending/$portal_id", "pending" );
+	
+	$response = array();
+	$response['operationStatus'] = 'submitted';
+	$response['portalId'] = $portal_id;
+	
+	
+	$constants = array(
+			'VAR_JOB_ID' => $portal_id,
+			//'VAR_JOB_LINK' => $GLOBALS['DOCKTHOR_URL'] . "index.php?tab=DOCKING&page=RESULTS&jobId=$portal_id"
+			'VAR_JOB_LINK' => "http://dockthor.lncc.br/v2/index.php?tab=DOCKING&page=RESULTS&jobId=$portal_id"
+	);
+	
+	$message = strtr(file_get_contents("email-templates/job-submited.html"), $constants);
+	
+	EmailUtils::sendEmail($emails, "[DockThor] JOB $portal_id SUBMITTED", $message, true);
+	
+// 	EmailUtils::sendEmail($emails, "DockThor Submission", "http://localhost/DockThor-3.0?tab=DOCKING&page=RESULTS&jobId=$portal_id", true);
+	echo json_encode($response);
+// 	header ( "Location: " . "../../index.php?tab=DOCKING&page=RESULTS&jobId=$portal_id");
+}
+?>

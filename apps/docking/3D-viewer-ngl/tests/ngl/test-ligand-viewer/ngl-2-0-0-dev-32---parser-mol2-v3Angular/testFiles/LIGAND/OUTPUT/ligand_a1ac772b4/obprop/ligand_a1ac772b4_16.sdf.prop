@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_16.sdf 1
+formula          C33H38N4O6
+mol_weight       586.678
+exact_mass       586.279
+canonical_SMILES CC[C@@]1(O)C(=O)OCc2c1cc1c3nc4ccc(cc4c(c3Cn1c2=O)CC)OC(=O)N1CC[C@H](CC1)N1CCCCC1	
+
+InChI            InChI=1S/C33H38N4O6/c1-3-22-23-16-21(43-32(40)36-14-10-20(11-15-36)35-12-6-5-7-13-35)8-9-27(23)34-29-24(22)18-37-28(29)17-26-25(30(37)38)19-42-31(39)33(26,41)4-2/h8-9,16-17,20,41H,3-7,10-15,18-19H2,1-2H3/t33-/m0/s1
+
+num_atoms        81
+num_bonds        87
+num_residues     0
+num_rotors       6
+sequence         -
+num_rings        7
+logP             3.9669
+PSA              114.2
+MR               169.633
+$$$$

@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_17.sdf 1
+formula          C19H22FN3O4
+mol_weight       375.394
+exact_mass       375.159
+canonical_SMILES COc1c(N2CCN[C@@H](C2)C)c(F)cc2c1n(cc(c2=O)C(=O)O)C1CC1	
+
+InChI            InChI=1S/C19H22FN3O4/c1-10-8-22(6-5-21-10)16-14(20)7-12-15(18(16)27-2)23(11-3-4-11)9-13(17(12)24)19(25)26/h7,9-11,21H,3-6,8H2,1-2H3,(H,25,26)/t10-/m1/s1
+
+num_atoms        49
+num_bonds        52
+num_residues     0
+num_rotors       4
+sequence         -
+num_rings        4
+logP             2.3742
+PSA              83.8
+MR               106.545
+$$$$

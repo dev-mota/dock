@@ -1,0 +1,3277 @@
+# 1 - generateJson:
+Array
+(
+    [E] => Array
+        (
+            [LYS] => Array
+                (
+                    [2] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [7] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [9] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [14] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [15] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [33] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [47] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [49] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [58] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [62] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [64] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [67] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [69] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [78] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [91] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [97] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [153] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [174] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [177] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [197] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [201] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [233] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [238] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [250] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [263] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [269] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [276] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [279] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [293] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [301] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [303] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [325] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                    [328] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LYS
+                                )
+
+                        )
+
+                )
+
+            [GLU] => Array
+                (
+                    [3] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [10] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [17] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [50] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [72] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [77] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [93] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [107] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [113] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [125] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [140] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [155] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [187] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [192] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [214] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [232] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [295] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [315] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [316] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [317] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [318] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [324] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [329] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                    [332] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLU
+                                )
+
+                        )
+
+                )
+
+            [PHE] => Array
+                (
+                    [4] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [12] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [29] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [40] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [86] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [88] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [94] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [96] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [115] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [124] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [130] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [139] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [170] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [172] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [222] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [223] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [241] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [245] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [265] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [281] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [298] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [302] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [311] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                    [330] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                )
+
+            [LEU] => Array
+                (
+                    [5] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [13] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [26] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [35] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [45] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [60] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [68] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [75] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [81] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [89] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [92] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [102] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [118] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [137] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [142] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [145] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [147] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [152] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [157] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [158] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [182] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [189] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [195] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [208] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [211] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [249] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [252] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [253] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [256] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [257] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [261] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                    [268] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => LEU
+                                )
+
+                        )
+
+                )
+
+            [ALA] => Array
+                (
+                    [6] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [8] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [24] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [56] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [83] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [110] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [128] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [132] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [133] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [173] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [190] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [202] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [207] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [216] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [217] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [224] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [282] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [288] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [296] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                )
+
+            [ASP] => Array
+                (
+                    [11] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [27] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [30] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [61] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [98] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [146] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [151] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [160] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [169] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [204] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [225] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [248] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [251] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [260] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [274] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [285] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [307] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [312] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                    [313] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                )
+
+            [TRP] => Array
+                (
+                    [16] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TRP
+                                )
+
+                        )
+
+                    [181] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TRP
+                                )
+
+                        )
+
+                    [205] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TRP
+                                )
+
+                        )
+
+                    [206] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TRP
+                                )
+
+                        )
+
+                    [280] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TRP
+                                )
+
+                        )
+
+                    [286] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TRP
+                                )
+
+                        )
+
+                )
+
+            [THR] => Array
+                (
+                    [18] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => THR
+                                )
+
+                        )
+
+                    [23] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => THR
+                                )
+
+                        )
+
+                    [34] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => THR
+                                )
+
+                        )
+
+                    [37] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => THR
+                                )
+
+                        )
+
+                    [74] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => THR
+                                )
+
+                        )
+
+                    [138] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => THR
+                                )
+
+                        )
+
+                    [168] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => THR
+                                )
+
+                        )
+
+                    [180] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => THR
+                                )
+
+                        )
+
+                    [185] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => THR
+                                )
+
+                        )
+
+                    [262] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => THR
+                                )
+
+                        )
+
+                    [283] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => THR
+                                )
+
+                        )
+
+                    [284] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => THR
+                                )
+
+                        )
+
+                    [308] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => THR
+                                )
+
+                        )
+
+                    [331] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => THR
+                                )
+
+                        )
+
+                )
+
+            [PRO] => Array
+                (
+                    [19] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PRO
+                                )
+
+                        )
+
+                    [87] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PRO
+                                )
+
+                        )
+
+                    [126] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PRO
+                                )
+
+                        )
+
+                    [154] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PRO
+                                )
+
+                        )
+
+                    [186] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PRO
+                                )
+
+                        )
+
+                    [191] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PRO
+                                )
+
+                        )
+
+                    [220] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PRO
+                                )
+
+                        )
+
+                    [221] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PRO
+                                )
+
+                        )
+
+                    [227] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PRO
+                                )
+
+                        )
+
+                    [242] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PRO
+                                )
+
+                        )
+
+                    [297] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PRO
+                                )
+
+                        )
+
+                    [300] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PRO
+                                )
+
+                        )
+
+                    [305] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PRO
+                                )
+
+                        )
+
+                )
+
+            [SER] => Array
+                (
+                    [20] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => SER
+                                )
+
+                        )
+
+                    [39] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => SER
+                                )
+
+                        )
+
+                    [51] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => SER
+                                )
+
+                        )
+
+                    [95] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => SER
+                                )
+
+                        )
+
+                    [100] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => SER
+                                )
+
+                        )
+
+                    [116] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => SER
+                                )
+
+                        )
+
+                    [144] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => SER
+                                )
+
+                        )
+
+                    [196] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => SER
+                                )
+
+                        )
+
+                    [236] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => SER
+                                )
+
+                        )
+
+                    [243] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => SER
+                                )
+
+                        )
+
+                    [246] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => SER
+                                )
+
+                        )
+
+                    [247] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => SER
+                                )
+
+                        )
+
+                    [309] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => SER
+                                )
+
+                        )
+
+                )
+
+            [GLN] => Array
+                (
+                    [21] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLN
+                                )
+
+                        )
+
+                    [25] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLN
+                                )
+
+                        )
+
+                    [28] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLN
+                                )
+
+                        )
+
+                    [63] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLN
+                                )
+
+                        )
+
+                    [70] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLN
+                                )
+
+                        )
+
+                    [82] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLN
+                                )
+
+                        )
+
+                    [134] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLN
+                                )
+
+                        )
+
+                    [161] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLN
+                                )
+
+                        )
+
+                    [162] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLN
+                                )
+
+                        )
+
+                    [166] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLN
+                                )
+
+                        )
+
+                    [226] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLN
+                                )
+
+                        )
+
+                    [229] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLN
+                                )
+
+                        )
+
+                    [258] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLN
+                                )
+
+                        )
+
+                    [291] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLN
+                                )
+
+                        )
+
+                )
+
+            [ASN] => Array
+                (
+                    [22] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASN
+                                )
+
+                        )
+
+                    [53] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASN
+                                )
+
+                        )
+
+                    [76] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASN
+                                )
+
+                        )
+
+                    [85] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASN
+                                )
+
+                        )
+
+                    [99] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASN
+                                )
+
+                        )
+
+                    [101] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASN
+                                )
+
+                        )
+
+                    [156] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASN
+                                )
+
+                        )
+
+                    [200] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASN
+                                )
+
+                        )
+
+                    [255] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASN
+                                )
+
+                        )
+
+                    [267] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASN
+                                )
+
+                        )
+
+                    [270] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASN
+                                )
+
+                        )
+
+                    [273] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASN
+                                )
+
+                        )
+
+                    [277] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASN
+                                )
+
+                        )
+
+                    [310] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASN
+                                )
+
+                        )
+
+                    [323] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASN
+                                )
+
+                        )
+
+                )
+
+            [ARG] => Array
+                (
+                    [31] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                    [42] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                    [79] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                    [119] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                    [120] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                    [123] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                    [129] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                    [150] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                    [175] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                    [179] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                    [240] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                    [254] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                    [264] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                    [292] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                    [320] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                )
+
+            [ILE] => Array
+                (
+                    [32] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [59] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [71] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [80] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [121] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [135] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [148] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [159] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [165] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [193] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [194] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [212] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [228] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [230] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [234] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [275] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [287] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [289] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [299] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [319] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [322] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                )
+
+            [GLY] => Array
+                (
+                    [36] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [38] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [41] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [52] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [111] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [112] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [122] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [163] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [171] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [178] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [184] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [198] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [209] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [218] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [237] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [266] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [271] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [304] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [306] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [327] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                )
+
+            [VAL] => Array
+                (
+                    [43] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [46] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [65] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [66] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [84] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [90] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [105] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [109] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [136] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [167] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [176] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [203] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [210] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [235] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [239] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [259] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [272] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [294] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                    [321] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => VAL
+                                )
+
+                        )
+
+                )
+
+            [MET] => Array
+                (
+                    [44] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => MET
+                                )
+
+                        )
+
+                    [57] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => MET
+                                )
+
+                        )
+
+                    [104] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => MET
+                                )
+
+                        )
+
+                    [106] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => MET
+                                )
+
+                        )
+
+                    [114] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => MET
+                                )
+
+                        )
+
+                    [215] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => MET
+                                )
+
+                        )
+
+                )
+
+            [HIS] => Array
+                (
+                    [48] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => HIS
+                                )
+
+                        )
+
+                    [54] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => HIS
+                                )
+
+                        )
+
+                    [73] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => HIS
+                                )
+
+                        )
+
+                    [117] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => HIS
+                                )
+
+                        )
+
+                    [127] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => HIS
+                                )
+
+                        )
+
+                    [143] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => HIS
+                                )
+
+                        )
+
+                    [244] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => HIS
+                                )
+
+                        )
+
+                    [278] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => HIS
+                                )
+
+                        )
+
+                )
+
+            [TYR] => Array
+                (
+                    [55] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TYR
+                                )
+
+                        )
+
+                    [103] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TYR
+                                )
+
+                        )
+
+                    [108] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TYR
+                                )
+
+                        )
+
+                    [131] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TYR
+                                )
+
+                        )
+
+                    [141] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TYR
+                                )
+
+                        )
+
+                    [149] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TYR
+                                )
+
+                        )
+
+                    [164] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TYR
+                                )
+
+                        )
+
+                    [188] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TYR
+                                )
+
+                        )
+
+                    [199] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TYR
+                                )
+
+                        )
+
+                    [213] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TYR
+                                )
+
+                        )
+
+                    [219] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TYR
+                                )
+
+                        )
+
+                    [231] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TYR
+                                )
+
+                        )
+
+                    [290] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TYR
+                                )
+
+                        )
+
+                    [314] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TYR
+                                )
+
+                        )
+
+                )
+
+            [CYS] => Array
+                (
+                    [183] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => CYSH
+                                )
+
+                        )
+
+                    [326] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => CYSH
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [I] => Array
+        (
+            [THR] => Array
+                (
+                    [2] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => THR
+                                )
+
+                        )
+
+                    [12] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => THR
+                                )
+
+                        )
+
+                )
+
+            [TYR] => Array
+                (
+                    [3] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => TYR
+                                )
+
+                        )
+
+                )
+
+            [ALA] => Array
+                (
+                    [4] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [8] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                    [17] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ALA
+                                )
+
+                        )
+
+                )
+
+            [ASP] => Array
+                (
+                    [5] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASP
+                                )
+
+                        )
+
+                )
+
+            [PHE] => Array
+                (
+                    [6] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => PHE
+                                )
+
+                        )
+
+                )
+
+            [ILE] => Array
+                (
+                    [7] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                    [18] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ILE
+                                )
+
+                        )
+
+                )
+
+            [SER] => Array
+                (
+                    [9] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => SER
+                                )
+
+                        )
+
+                )
+
+            [GLY] => Array
+                (
+                    [10] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                    [13] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => GLY
+                                )
+
+                        )
+
+                )
+
+            [ARG] => Array
+                (
+                    [11] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                    [14] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                    [15] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ARG
+                                )
+
+                        )
+
+                )
+
+            [ASN] => Array
+                (
+                    [16] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => ASN
+                                )
+
+                        )
+
+                )
+
+            [HIS] => Array
+                (
+                    [19] => Array
+                        (
+                            [state] => Array
+                                (
+                                    [value] => HIS
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

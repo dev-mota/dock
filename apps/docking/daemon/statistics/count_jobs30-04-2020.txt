@@ -1,0 +1,1 @@
+30-04-2020 statistics: 2837 jobs submitted a total of 36618 ligands, resulting in a mean of 12 ligand(s) per job.

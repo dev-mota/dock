@@ -1,0 +1,136 @@
+<br>
+<div class="panel panel-default">
+    <div class="panel-body">
+        
+        <div class="row">
+            <div class="col-lg-12">  
+                <label for="exampleInputEmail1">
+                    <span class="label label-primary">New</span>
+                    {{ preparedResoucesLabel }}          
+                </label>
+                
+            </div>
+        </div>
+        
+        <br>
+        
+        <div class="row" ng-show="loadPreparedResourceSuccess">
+            
+            <div class="col-lg-3">
+               <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span style="{{selectedLevel1==null ? 'color:gray' : 'color:black; font-style: italic;'}}">
+                        {{selectedLevel1==null ? 'Target': selectedLevel1.name}}
+                    </span>
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">                    
+                    <li ng-repeat="value in preparedResources"><a href="javascript:void(0)" ng-click="selectLevel1(value)" >{{value.name}}</a></li>                    
+                  </ul>
+                </div>                
+              </div>           
+            </div>
+            
+            <div class="col-lg-3">
+               <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ng-disabled="selectedLevel1==null">
+                    <span style="{{selectedLevel2==null ? 'color:gray' : 'color:black; font-style: italic;'}}">
+                        {{selectedLevel2==null ? 'Variant': selectedLevel2.name}}
+                    </span>
+                    <span class="caret"></span>                    
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li ng-repeat="value in selectedLevel1.elements"><a href="javascript:void(0)" ng-click="selectLevel2(value)">{{value.name}}</a></li>                    
+                  </ul>
+                </div>                
+              </div>
+            </div>
+            
+            <div class="col-lg-3">
+               <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ng-disabled="selectedLevel2==null">
+                    <span style="{{selectedLevel3==null ? 'color:gray' : 'color:black; font-style: italic;'}}">
+                        {{selectedLevel3==null ? 'Structure': selectedLevel3.name}}
+                    </span>
+                    <span class="caret"></span>                    
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li ng-repeat="value in selectedLevel2.elements"><a href="javascript:void(0)" ng-click="selectLevel3(value)">{{value.name}}</a></li>                    
+                  </ul>
+                </div>                
+              </div>
+            </div>
+            
+            
+            <div class="col-lg-3">
+               
+                <!-- Info button (href utilizou um if pq o tooltip nõ impede o click do ng-disabled)-->
+                <a class="btn btn-info"                   
+                   href="{{disableInfoButton ? 'javascript:void(0)' : '#preparedResourcesModalInfo'}}"
+                   title="Info"                   
+                   data-placement="bottom"
+                   data-toggle="modal"
+                   tooltip
+                   style="text-decoration: underline;"       
+                   ng-disabled="disableInfoButton"
+                   >
+                    <span class="glyphicon glyphicon-info-sign"></span>
+                </a>
+                
+                <!-- Reload button -->
+                <a class="btn btn-warning"
+                   href="javascript:void(0)"
+                   title="Reload"                   
+                   data-placement="bottom"
+                   data-toggle="tooltip"                   
+                   tooltip
+                   ng-click="initPreparedResourcesApp()"
+                   >
+                    <span class="glyphicon glyphicon-repeat"></span>
+                </a>
+                
+                <!-- Submmit button -->
+                <a class="btn btn-primary"
+                   href="javascript:void(0)"
+                   title="Select"                   
+                   data-placement="bottom"
+                   data-toggle="tooltip"     
+                   tooltip
+                   ng-disabled="disableSelectButton"
+                   ng-click="loadPreparedResource(queue)"
+                   >
+                    <span class="glyphicon glyphicon-play-circle"></span>
+                </a>
+                
+            </div>
+            
+        </div><!-- /.row -->
+        
+        <div class="row" ng-show="!loadPreparedResourceSuccess" style="text-align: center">
+            <p>An error ocurred to load data. Please, try againg.</p>
+            <br>
+            <button type="button" class="btn btn-warning" ng-click="initPreparedResourcesApp()">Reload</button>
+        </div><!-- /.row -->
+        
+    </div><!-- /.panel-body -->
+</div><!-- /.panel -->
+
+<!-- Information Modal -->
+<div class="modal fade" id="preparedResourcesModalInfo" tabindex="-1" role="dialog" aria-labelledby="preparedResourcesModalInfoLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div style="text-align: center">
+                    <h2 class="modal-title">{{selectedLevel1.name}}</h2>
+                </div>
+            </div>
+            <div class="modal-body instructions-div" align="center">                
+                <p ng-bind-html="selectedLevel3.info"></p>                
+            </div>
+        </div>
+    </div>
+</div>

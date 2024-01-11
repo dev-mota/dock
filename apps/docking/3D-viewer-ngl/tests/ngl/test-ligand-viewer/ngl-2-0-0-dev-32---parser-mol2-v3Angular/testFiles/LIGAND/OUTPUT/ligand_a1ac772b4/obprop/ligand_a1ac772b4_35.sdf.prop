@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_35.sdf 1
+formula          C18H15Cl3N2O
+mol_weight       381.684
+exact_mass       380.025
+canonical_SMILES Clc1ccc(cc1)CO[C@@H](c1ccc(cc1Cl)Cl)Cn1cncc1	
+
+InChI            InChI=1S/C18H15Cl3N2O/c19-14-3-1-13(2-4-14)11-24-18(10-23-8-7-22-12-23)16-6-5-15(20)9-17(16)21/h1-9,12,18H,10-11H2/t18-/m1/s1
+
+num_atoms        39
+num_bonds        41
+num_residues     0
+num_rotors       6
+sequence         -
+num_rings        3
+logP             5.8014
+PSA              27.05
+MR               98.192
+$$$$

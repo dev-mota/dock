@@ -1,0 +1,18 @@
+name             ligand_ead8550a4f_2.sdf 1
+formula          C53H72N2O12++
+mol_weight       929.145
+exact_mass       928.509
+canonical_SMILES COc1cc2c(cc1OC)CC[N@@+]([C@H]2Cc1ccc(c(c1)OC)OC)(C)CCC(=O)OCCCCCOC(=O)CC[N@@+]1(C)CCc2c([C@H]1Cc1ccc(c(c1)OC)OC)cc(c(c2)OC)OC	
+
+InChI            InChI=1S/C53H72N2O12/c1-54(22-18-38-32-48(62-7)50(64-9)34-40(38)42(54)28-36-14-16-44(58-3)46(30-36)60-5)24-20-52(56)66-26-12-11-13-27-67-53(57)21-25-55(2)23-19-39-33-49(63-8)51(65-10)35-41(39)43(55)29-37-15-17-45(59-4)47(31-37)61-6/h14-17,30-35,42-43H,11-13,18-29H2,1-10H3/q+2/t42-,43+,54-,55+
+
+num_atoms        139
+num_bonds        144
+num_residues     0
+num_rotors       26
+sequence         -
+num_rings        6
+logP             7.9831
+PSA              126.44
+MR               267.341
+$$$$

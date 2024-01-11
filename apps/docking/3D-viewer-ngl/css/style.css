@@ -1,0 +1,41 @@
+/*  @charset "UTF-8"; */
+
+@import url("../../../../css/style.css");
+
+body {
+	background: none;
+	font-size: 14px;	
+}
+
+.btn:NOT(.docking-plus-button) {
+	padding: 10px;	
+	font-weight: normal;
+}
+
+.has-error {
+	/*border: 1px solid #a94442;*/
+}
+
+.ngl-code-color {
+	color: #1f9797
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+	display: none !important;
+}
+
+.result-ligand-panel {
+	background: #fcf8f9; 
+	border: 2px solid #1f979769; 
+	border-radius: 8px;
+}
+
+.result-ligand-panel-value {
+	color:#1f9797;
+	text-align: right;
+}
+
+.result-ligand-panel-property {
+	font-weight: bold;
+	font-style: italic;
+}

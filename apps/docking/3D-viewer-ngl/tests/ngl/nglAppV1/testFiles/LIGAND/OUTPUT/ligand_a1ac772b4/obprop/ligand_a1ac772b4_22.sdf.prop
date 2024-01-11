@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_22.sdf 1
+formula          C20H24N2O2
+mol_weight       324.417
+exact_mass       324.184
+canonical_SMILES C=C[C@H]1CN2CC[C@H]1C[C@@H]2[C@H](c1ccnc2c1cc(OC)cc2)O	
+
+InChI            InChI=1S/C20H24N2O2/c1-3-13-12-22-9-7-14(13)10-19(22)20(23)16-6-8-21-18-5-4-15(24-2)11-17(16)18/h3-6,8,11,13-14,19-20,23H,1,7,9-10,12H2,2H3/t13-,14-,19+,20-/m0/s1
+
+num_atoms        48
+num_bonds        51
+num_residues     0
+num_rotors       4
+sequence         -
+num_rings        4
+logP             3.1111
+PSA              45.59
+MR               99.7348
+$$$$

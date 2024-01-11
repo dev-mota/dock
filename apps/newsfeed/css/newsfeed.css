@@ -1,0 +1,66 @@
+/* required style*/
+.none {
+	display: none;
+}
+
+/* optional styles */
+table tr th, table tr td {
+	font-size: 1.2rem;
+}
+
+.row {
+	margin: 20px 20px 20px 20px;
+	width: 100%;
+}
+
+.plus-button {
+	font-size: 20px;
+}
+
+.glyphicon-plus {
+	float: right;
+}
+
+a.glyphicon {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*
+.glyphicon-trash {
+	margin-left: 10px;
+}*/
+
+.alert {
+	width: 50%;
+	border-radius: 0;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+/* image upload */
+.thumb {
+    width: 48px;
+    height: 48px;
+    float: none;
+    position: relative;
+    top: 7px;
+}
+
+form .progress {
+    line-height: 15px;
+}
+
+
+.progress {
+    display: inline-block;
+    width: 100px;
+    border: 3px groove #CCC;
+}
+
+.progress div {
+    font-size: smaller;
+    background: orange;
+    width: 0;
+}
+

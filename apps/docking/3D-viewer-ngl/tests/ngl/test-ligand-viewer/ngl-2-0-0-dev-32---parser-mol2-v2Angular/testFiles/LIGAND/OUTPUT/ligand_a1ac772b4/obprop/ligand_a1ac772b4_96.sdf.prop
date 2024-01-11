@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_96.sdf 1
+formula          C26H26F3N3O3
+mol_weight       485.498
+exact_mass       485.193
+canonical_SMILES C[C@@H]1O[C@H](C)CN(C1)c1ccc(cn1)NC(=O)c1cccc(c1C)c1ccc(cc1)OC(F)(F)F	
+
+InChI            InChI=1S/C26H26F3N3O3/c1-16-14-32(15-17(2)34-16)24-12-9-20(13-30-24)31-25(33)23-6-4-5-22(18(23)3)19-7-10-21(11-8-19)35-26(27,28)29/h4-13,16-17H,14-15H2,1-3H3,(H,31,33)/t16-,17+
+
+num_atoms        61
+num_bonds        64
+num_residues     0
+num_rotors       7
+sequence         -
+num_rings        4
+logP             5.9595
+PSA              63.69
+MR               130.877
+$$$$

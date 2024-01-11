@@ -1,0 +1,6 @@
+<?php 
+//$GLOBALS['DOCKTHOR_PATH'] = "/var/www/html/DockThor-3.0/"; //TODO: IURI - tirar essa variavel e colocar no globals-dockthor.php com algum mecanismos entre as chamadas "apache" e "crontab"
+$GLOBALS['DOCKTHOR_PATH'] = "/var/www.new/dockthorV2/";
+$GLOBALS['DOCKTHOR_URL'] = "http://dockthor.lncc.br/v2/";
+$GLOBALS['MAX_NUMBER_JOBS'] = 5;
+?>

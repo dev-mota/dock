@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_30.sdf 1
+formula          C21H26O5
+mol_weight       358.428
+exact_mass       358.178
+canonical_SMILES OCC(=O)[C@@]1(O)CC[C@@H]2[C@]1(C)CC(=O)[C@H]1[C@H]2CCC2=CC(=O)C=C[C@]12C	
+
+InChI            InChI=1S/C21H26O5/c1-19-7-5-13(23)9-12(19)3-4-14-15-6-8-21(26,17(25)11-22)20(15,2)10-16(24)18(14)19/h5,7,9,14-15,18,22,26H,3-4,6,8,10-11H2,1-2H3/t14-,15-,18+,19-,20-,21-/m0/s1
+
+num_atoms        52
+num_bonds        55
+num_residues     0
+num_rotors       2
+sequence         -
+num_rings        4
+logP             1.7658
+PSA              91.67
+MR               96.0986
+$$$$

@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_7.sdf 1
+formula          C27H44O
+mol_weight       384.638
+exact_mass       384.339
+canonical_SMILES CC(CCC[C@H]([C@H]1CC[C@@H]2[C@]1(C)CCC/C/2=C/C=C\1/C[C@@H](O)CCC1=C)C)C	
+
+InChI            InChI=1S/C27H44O/c1-19(2)8-6-9-21(4)25-15-16-26-22(10-7-17-27(25,26)5)12-13-23-18-24(28)14-11-20(23)3/h12-13,19,21,24-26,28H,3,6-11,14-18H2,1-2,4-5H3/b22-12?,23-13-/t21-,24+,25-,26+,27-/m1/s1
+
+num_atoms        72
+num_bonds        74
+num_residues     0
+num_rotors       6
+sequence         -
+num_rings        3
+logP             7.619
+PSA              20.23
+MR               125.041
+$$$$

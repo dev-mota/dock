@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_46.sdf 1
+formula          C16H14F3N5O
+mol_weight       349.31
+exact_mass       349.115
+canonical_SMILES Fc1ccc(c(c1)F)[C@]([C@H](c1ncncc1F)C)(Cn1cncn1)O	
+
+InChI            InChI=1S/C16H14F3N5O/c1-10(15-14(19)5-20-7-22-15)16(25,6-24-9-21-8-23-24)12-3-2-11(17)4-13(12)18/h2-5,7-10,25H,6H2,1H3/t10-,16+/m0/s1
+
+num_atoms        39
+num_bonds        41
+num_residues     0
+num_rotors       5
+sequence         -
+num_rings        3
+logP             2.1769
+PSA              76.72
+MR               81.1878
+$$$$

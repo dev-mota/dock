@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_67.sdf 1
+formula          C23H26ClN7O3
+mol_weight       483.951
+exact_mass       483.179
+canonical_SMILES OC[C@@H]1CCCN1c1ncc(c(n1)NCc1ccc(c(c1)Cl)OC)/C(=N/Cc1ncccn1)/O	
+
+InChI            InChI=1S/C23H26ClN7O3/c1-34-19-6-5-15(10-18(19)24)11-27-21-17(22(33)28-13-20-25-7-3-8-26-20)12-29-23(30-21)31-9-2-4-16(31)14-32/h3,5-8,10,12,16,32H,2,4,9,11,13-14H2,1H3,(H,28,33)(H,27,29,30)/t16-/m0/s1
+
+num_atoms        60
+num_bonds        63
+num_residues     0
+num_rotors       9
+sequence         -
+num_rings        4
+logP             3.1446
+PSA              128.88
+MR               133.044
+$$$$

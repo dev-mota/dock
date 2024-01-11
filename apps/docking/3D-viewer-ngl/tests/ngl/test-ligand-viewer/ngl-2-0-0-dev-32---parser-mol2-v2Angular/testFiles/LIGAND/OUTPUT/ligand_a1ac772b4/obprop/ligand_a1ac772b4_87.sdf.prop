@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_87.sdf 1
+formula          C15H21N3O
+mol_weight       259.347
+exact_mass       259.168
+canonical_SMILES NCCC[C@@H](Nc1cc(OC)cc2c1nccc2)C	
+
+InChI            InChI=1S/C15H21N3O/c1-11(5-3-7-16)18-14-10-13(19-2)9-12-6-4-8-17-15(12)14/h4,6,8-11,18H,3,5,7,16H2,1-2H3/t11-/m0/s1
+
+num_atoms        40
+num_bonds        41
+num_residues     0
+num_rotors       6
+sequence         -
+num_rings        2
+logP             3.556
+PSA              60.17
+MR               79.4761
+$$$$

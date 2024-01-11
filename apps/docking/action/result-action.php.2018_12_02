@@ -1,0 +1,483 @@
+<?php
+// Test urls 
+// http://localhost/DockThor-3.0/?tab=DOCKING&page=RESULTS&jobId=teste_para_aba_results_3LIGANDS_592c469ee23b9
+
+require_once '../environment/dtstatistic-environment.php';
+require_once '../lib/utils/utils.php';
+
+$action = null;
+$response['status'] = 'ERR';
+
+function getUserIp() {
+	if (! empty ( $_SERVER ['HTTP_CLIENT_IP'] )) // se possível, obtém o endereço ip da máquina do cliente
+	{
+		$ip = $_SERVER ['HTTP_CLIENT_IP'];
+	} elseif (! empty ( $_SERVER ['HTTP_X_FORWARDED_FOR'] )) // verifica se o ip está passando pelo proxy
+	{
+		$ip = $_SERVER ['HTTP_X_FORWARDED_FOR'];
+	} else {
+		$ip = $_SERVER ['REMOTE_ADDR'];
+	}
+	return $ip;
+}
+
+$action = isset ($_POST ['action']);
+if(isset ( $_GET ['action'])){
+	$action = $_GET ['action'];
+}
+
+session_start ();
+$session_id = session_id ();
+
+if ($action != null){
+// 	$action = $_POST ['action'];
+	
+	if($action=='ANALYSE'){
+	
+		//////////////// Get parameters
+		$num = $_POST ['num']; // binding nodes
+		$c = $_POST ['c']; // rmsd
+		$cFloat = number_format((float)$c, 1, '.', '');
+		$referenceFile = $_FILES ['r']; // reference file
+		
+// 		var_dump($referenceFile);
+		$jobId = $_POST ['jobId']; // reference file
+		
+// 		echo "NUM: $num <br>";
+// 		echo "C: $cFloat <br>";
+// 		echo "JOBID: $jobId <br><br>";
+		
+        //////////////// Session dir
+		$sessionDir = "../session-files/$session_id";
+		if(!file_exists($sessionDir)){
+		    mkdir($sessionDir);
+		}
+		
+		//////////////// Results dir
+		$resultsDir = "$sessionDir/RESULTS";
+		if(!file_exists($resultsDir)){
+		    mkdir($resultsDir);
+		}
+		
+		//////////////// Result job dir
+		//$zipDestinyPath = "../daemon/jobs/$jobId/result/$jobId/";
+		$zipDestinyPath = "$resultsDir/$jobId";
+		if(!file_exists($zipDestinyPath)){
+		    mkdir($zipDestinyPath);
+		}
+		
+		$zipDestinyPath = "$resultsDir/$jobId/RESULT";
+		if(!file_exists($zipDestinyPath)){
+		    mkdir($zipDestinyPath);
+		}
+		
+		//////////////// Clear previous result from the job
+		if(file_exists($zipDestinyPath)){
+		    //shell_exec("rm -rf $zipDestinyPath/*");
+			shell_exec("rm -rf $zipDestinyPath");
+		}
+		
+		//////////////// Unzip in session dir
+		$unzipToSessionCommand = "unzip ../daemon/jobs/$jobId/result/$jobId.zip -d $zipDestinyPath";
+		$result = shell_exec($unzipToSessionCommand);		
+		
+		///////==========////////
+		
+// 		//////////////// Unzip
+// 		$unzipCommand = "cd ../daemon/jobs/$jobId/result; unzip $jobId.zip -d $zipDestinyPath 2>&1 1> /dev/null;";
+// 		$zipDestinyPath = "../daemon/jobs/$jobId/result/$jobId/";		
+// 		//check
+// 		if(file_exists($zipDestinyPath)){
+// 			shell_exec("cd ../daemon/jobs/$jobId/result; rm -rf $zipDestinyPath");
+// 		}
+// 		//execute
+// 		$unzipCommand = "cd ../daemon/jobs/$jobId/result; unzip $jobId.zip 2>&1 1> /dev/null;";
+// 		shell_exec($unzipCommand);
+// 		//check
+// 		if(!file_exists($zipDestinyPath)){
+// 			$response['status'] = "Some problem occurred to unzip process for $jobId";
+// 			$response['status'] = 'ERR';
+// 		}
+		
+		////////////// Check howmany ligands has
+		$str = file_get_contents("../daemon/jobs/$jobId/properties.json");
+		$json = json_decode($str, true); // decode the JSON into an associative array
+		//echo '<pre>' . print_r($json[$jobId]['submissions'], true) . '</pre>';
+		$ligandArray = array();
+		$lastSubmition = end($json[$jobId]['submissions']);
+		foreach ($lastSubmition['file-args']['l'] as $element) {
+			$fileNameSplit = explode(".", $element);
+			$ligandArray[] = $fileNameSplit[0];
+		}
+
+		$numOfLigands = sizeof($ligandArray);
+
+		if ($numOfLigands == 1) {
+
+		
+			//////////////// Execute dtstatistic
+			// Reference file
+			$referenceFileParameter = ""; 
+			if($referenceFile['tmp_name'][0] != ""){
+			
+				$fileName = $referenceFile['name'][0];
+				//$filePath = "../daemon/jobs/$jobId/result/" . $fileName;
+				$filePath = "../session-files/$session_id/RESULTS/$jobId/RESULT/" . $fileName;
+				$moveResult = move_uploaded_file ( $referenceFile['tmp_name'][0], $filePath);
+			
+				if($moveResult){
+					$referenceFileParameter = "-r $fileName";
+				}
+			}
+			// Read each ligand
+			foreach ($ligandArray as $ligandId) {
+				//$dtstatisticCommand = "cd ../daemon/jobs/$jobId/result/;".$GLOBALS ["DTSTATISTISCS_LIBDIR"]." -l $ligandId -t -n $num -c $cFloat -o result-$ligandId $referenceFileParameter";
+			    $dtstatisticCommand = "cd ../session-files/$session_id/RESULTS/$jobId/RESULT;".$GLOBALS ["DTSTATISTISCS_LIBDIR"]." -l $ligandId -t -n $num -c $cFloat -o result-$ligandId $referenceFileParameter";
+				// echo "<br>$dtstatisticCommand<br>";
+				$result = shell_exec($dtstatisticCommand);
+	// 			echo "$result<br>";
+			}
+
+		}
+
+		$buildBestCSVCommand = $GLOBALS["BUILD_BEST_CSV_SCRIPT"]." ../session-files/$session_id/RESULTS/$jobId/RESULT";
+		$resultCSV = shell_exec($buildBestCSVCommand);
+
+		$buildBestSnapCommand = $GLOBALS["BUILD_BEST_SNAP_SCRIPT"]." ../session-files/$session_id/RESULTS/$jobId/RESULT";
+		$resultSnap = shell_exec($buildBestSnapCommand);
+
+		// Read log files and generate result elements for view 
+		$resultElements = array();
+		$ligandCont = 0;
+
+		$snapCSVFilePath = "../session-files/$session_id/RESULTS/$jobId/RESULT/snap.txt";
+
+		$snapCSVFile = fopen($snapCSVFilePath, "r");
+
+		$ligandArray = array();
+
+		if($snapCSVFile != false) {
+
+			while (!feof($snapCSVFile)) {
+
+				$line = fgets($snapCSVFile); // (do not use "$file" more than once!)
+				$line = substr($line, 0, strlen($line) - 1);
+
+				if(strlen($line) > 4) {
+
+					array_push($ligandArray, $line);
+				}
+			}
+		}
+
+		fclose($snapCSVFile);
+		
+		//$testPath = "/tmp/teste.txt";
+		//$testFile = fopen($testPath, "a");
+		
+		//fwrite($testFile, "teste");
+		
+		foreach ($ligandArray as $ligandId) {
+		    $logFilePath = "../session-files/$session_id/RESULTS/$jobId/RESULT/result-$ligandId.log";
+			$logFile = fopen($logFilePath, "r");
+			
+			$i = 0;
+			//read line by line from pdb file
+			if($logFile != false){
+			
+				$resultElements[$ligandCont] = array();
+				$resultElements[$ligandCont]['name'] = $ligandId;
+
+				while (!feof($logFile)) {
+				
+					//read the line
+					$line = fgets($logFile); // (do not use "$file" more than once!)
+				
+					if(substr( $line, 0, 7 ) == "ligand_"){ // string substr ( string $string , int $start [, int $length ] )
+
+
+						if( $i == ($num) )
+							continue;
+						// transform the line in array
+						$lineArray = preg_split('/\s+/', $line);
+						$resultElements[$ligandCont]['elements'][$i]['fileName'] = $lineArray[0];
+						$resultElements[$ligandCont]['elements'][$i]['model'] = $lineArray[1];
+						$resultElements[$ligandCont]['elements'][$i]['tenergy'] = $lineArray[2];
+						$resultElements[$ligandCont]['elements'][$i]['ienergy'] = $lineArray[3];
+						$resultElements[$ligandCont]['elements'][$i]['vdw'] = $lineArray[4];
+						$resultElements[$ligandCont]['elements'][$i]['coul'] = $lineArray[5];
+						$resultElements[$ligandCont]['elements'][$i]['numrotors'] = $lineArray[6];
+						$resultElements[$ligandCont]['elements'][$i]['rmsd'] = $lineArray[7];
+						$resultElements[$ligandCont]['elements'][$i]['score'] = $lineArray[8];
+						
+						$fileName = $lineArray[0];
+						$pos = strrpos($fileName, "_");
+						$run = substr($fileName,$pos+1,-4);
+						$resultElements[$ligandCont]['elements'][$i]['run'] = $run;
+						
+						$i++;
+					}					
+				}
+			}
+			$ligandCont++;
+		}
+		//fclose($testFile);
+		//$ligand_string=substr($ligand_string, 0, strlen($ligand_string)-1);
+		//fwrite($dtLigandListFile, $ligand_string);
+		//fclose($dtLigandListFile);
+		
+		////////////////response
+		//$jsonResultElements = json_encode($resultElements,JSON_PRETTY_PRINT);
+		//print_r($resultElements);
+		//print_r($resultElements);
+		//print_r($resultElements);
+		
+		$response['elements'] = $resultElements;
+		$response['status'] = 'SUCCESS';
+		//echo $GLOBALS['DOCKTHOR_PATH'];
+		
+		
+	} else if ($action =='DOWNLOAD-RESULTS'){
+		if (isset ( $_GET ["jobId"] )) {
+			
+			$jobId = $_GET ["jobId"];
+			$ip = getUserIp ();
+			$date = date ( 'H-i-s, j-m-y' );
+
+			$buildBestMol2Command = $GLOBALS["BUILD_BEST_MOL2_SCRIPT"]." ../session-files/$session_id/RESULTS/$jobId/RESULT ".$GLOBALS["BUILD_SPLIT_MOL2_PY"];
+                	$resultMol2 = shell_exec($buildBestMol2Command);
+		
+			//////////////// temp files will contain all files from daemon exept "result" folder 
+			$temp = "../session-files/$session_id/RESULTS/$jobId/TEMP";
+			// clear
+			if(file_exists($temp)){
+			    shell_exec("rm -rf $temp");
+			}
+			// create temp
+			shell_exec("mkdir $temp");
+			// copy all 
+			shell_exec("cp -r ../daemon/jobs/$jobId/* $temp");
+			// remove o zip do "result"
+			shell_exec("rm -rf $temp/result");
+			
+			shell_exec("rm -f $temp/../RESULT/snap.txt");
+
+			shell_exec("cp -rf $temp/../RESULT $temp");
+
+			#creating parameters.txt file
+			$str = file_get_contents("../daemon/jobs/$jobId/properties.json");
+			$json = json_decode($str, true); // decode the JSON into an associative array
+			//echo '<pre>' . print_r($json[$jobId]['submissions'], true) . '</pre>';
+			$cofactorArray = array();
+			$ligandArray = array();
+			$lastSubmition = end($json[$jobId]['submissions']);
+			
+			$protein = $lastSubmition['file-args']['r'][0];
+			
+			foreach ($lastSubmition['file-args']['c'] as $element) {
+				$fileNameSplit = explode(".", $element);
+				//$fileNameSplit = explode("cofactor_", $fileNameSplit[0]);
+				$cofactorArray[] = $fileNameSplit[0];
+			}
+			$numOfCofactors = sizeof($cofactorArray);
+			
+			foreach ($lastSubmition['file-args']['l'] as $element) {
+				$fileNameSplit = explode(".", $element);
+				//$fileNameSplit = explode("ligand_", $fileNameSplit[0]);
+				$ligandArray[] = $fileNameSplit[0];
+			}
+			$numOfLigands = sizeof($ligandArray);
+			
+			$sizex=$lastSubmition['args']['gs']['x']*2;
+			$sizey=$lastSubmition['args']['gs']['y']*2;
+			$sizez=$lastSubmition['args']['gs']['z']*2;
+			
+			$discretization=$lastSubmition['args']['rstep'];
+			
+			
+			$number_of_evaluations = $lastSubmition['args']['naval'];
+			$population_size = $lastSubmition['args']['popsize'];
+			$number_of_runs = $lastSubmition['args']['nrun'];
+			$seed = $lastSubmition['args']['seed'];
+			
+			$submission_date=$json[$jobId]['portal-submission-date'];
+			$job_name=$jobId;
+			$id=key($json[$jobId]['submissions']);//key($lastSubmition);
+			
+			#creating file parameters.txt
+			$parameters_txt= fopen($temp."/parameters.txt", "w");
+			$text="INPUT FILES\n\nprotein = ".$protein."\nligand set size = ".$numOfLigands."\nligand files = ";
+			
+			$ligands_csv= array();
+			$file_csv=fopen($temp."/LIGAND/ligand_mapfile.csv","r");
+			while(($line = fgetcsv($file_csv)) !== false){
+				$ligands_csv[]=$line;
+			}
+			fclose($file_csv);
+			$ligands_csv_lines=sizeof($ligands_csv);
+			
+			$i=0;
+			foreach($ligands_csv as $ligand){
+				if($i>0){
+					$text=$text.$ligand[1];
+				}
+				$i++;
+				if($i==$ligands_csv_lines){
+					$text=$text."\ncofactor set size = ";
+				}else if($i>1){
+					$text=$text.";";
+				}
+			}
+
+// 			if($numOfLigands>1){
+// 				$i=0;
+// 				foreach($ligandArray as $ligand){
+// 					$text=$text.$ligand;
+// 					$i++;
+// 					if($i!=$numOfLigands){
+// 						$text=$text.";";
+// 					}else{
+// 						$text=$text."\ncofactor set size = ";
+// 					}
+// 				}
+// 			}else{
+// 				$fileNameSplit = explode("_1", $ligandArray[0]);
+// 				$text=$text.$fileNameSplit[0]."\ncofactor set size = ";
+// 			}
+			
+			$text=$text.$numOfCofactors."\ncofactor files = ";
+			
+			$cofactors_csv= array();
+			if(file_exists($temp."/COFACTOR/cofactor_mapfile.csv")){
+				$file_csv=fopen($temp."/COFACTOR/cofactor_mapfile.csv","r");
+				while(($line = fgetcsv($file_csv)) !== false){
+					$cofactors_csv[]=$line;
+				}
+				fclose($file_csv);
+				$cofactors_csv_lines=sizeof($cofactors_csv);
+					
+				$i=0;
+				foreach($cofactors_csv as $cofactor){
+					if($i>0){
+						$text=$text.$cofactor[1];
+					}
+					$i++;
+					if(($i!=$cofactors_csv_lines) && ($i>1)){
+						$text=$text.";";
+					}
+				}
+			}
+			
+			$text=$text."\n\n";
+			
+// 			if($numOfCofactors>1){
+// 				$i=0;
+// 				foreach($cofactorArray as $cofactor){
+// 					$text=$text.$cofactor;
+// 					$i++;
+// 					if($i!=$numOfCofactors){
+// 						$text=$text.";";
+// 					}else{
+// 						$text=$text."\n\n";
+// 					}
+// 				}
+// 			}else{
+// 				$fileNameSplit = explode("_1", $cofactorArray[0]);
+// 				$text=$text.$fileNameSplit[0]."\n\n";
+// 			}
+			
+			
+			$text=$text."GRID SETTINGS\n\ncenter x = ".$lastSubmition['args']['gc']['xc']."\ncenter y = ".$lastSubmition['args']['gc']['yc']."\ncenter z = ".$lastSubmition['args']['gc']['zc']."\ntotal size x = ".$sizex."\ntotal size y = ".$sizey."\ntotal size z = ".$sizez."\ndiscretization = ".$discretization."\n\n";
+			$text=$text."GENETIC ALGORITHM SETTINGS\n\nnumber of evaluations = ".$number_of_evaluations."\npopulation size = ".$population_size."\nnumber of runs = ".$number_of_runs."\nseed at run #1 = ".$seed."\n\n";
+			$text=$text."JOB INFO\n\nsubmission date = ".$submission_date."\njob name = ".$job_name."\nID = ".$id;
+			
+			//$numOfLigands=shell_exec("(cd $temp/LIGAND; ls -1 | wc -l)");
+
+			//if ($numOfLigands > 1) {
+				//shell_exec("((cd $temp/RESULT; find . -print | grep 'run') | xargs -0 rm)");
+				//shell_exec("rm -rf $temp/RESULT/*_run*.*");
+			//}
+
+			fwrite($parameters_txt, $text);
+			fclose($parameters_txt);
+			
+			shell_exec("rm -f $temp/RESULT/snap.txt");
+			
+			shell_exec("rm -rf $temp/properties.json");
+		
+			/////////////// Zip temp files
+			$zipCommand = "cd $temp; zip -r ../$jobId.zip .";
+			shell_exec($zipCommand);
+			
+// 			///
+// 			$removeFileFromZipCommand = "cd ../session-files/$session_id/RESULTS/$jobId; zip -d $jobId $jobId/result/$jobId.zip";
+// 			shell_exec($removeFileFromZipCommand);	
+						
+// 			// Add result files
+// 			$updateZipCommand = "cd ../session-files/$session_id/RESULTS/$jobId; zip -u $jobId.zip RESULT";
+// 			shell_exec($updateZipCommand);
+			
+// 			// Add ligand map
+// 			if(is_file("../daemon/jobs/$jobId/LIGAND/ligand_mapfile.csv")){
+// 				copy("../daemon/jobs/$jobId/LIGAND/ligand_mapfile.csv", "../daemon/jobs/$jobId/result/ligand_mapfile.csv");
+// 				$updateZipCommand = "cd ../daemon/jobs/$jobId/result; zip -u $jobId.zip ligand_mapfile.csv";
+// 				shell_exec($updateZipCommand);
+// 			}
+			
+// 			// Add cofactor map
+// 			if(is_file("../daemon/jobs/$jobId/COFACTOR/cofactor_mapfile.csv")){
+// 				copy("../daemon/jobs/$jobId/COFACTOR/cofactor_mapfile.csv", "../daemon/jobs/$jobId/result/cofactor_mapfile.csv");
+// 				$updateZipCommand = "cd ../daemon/jobs/$jobId/result; zip -u $jobId.zip cofactor_mapfile.csv";
+// 				shell_exec($updateZipCommand);
+// 			}
+
+// 			header ( "Location: ../daemon/jobs/$jobId.zip");
+            header ( "Location: ../session-files/$session_id/RESULTS/$jobId/$jobId.zip");
+		}
+	} else if ($action =='REMOVE-ALL-FILES-FROM-JOB'){
+		
+		if (isset ( $_GET["jobId"] )) {
+			
+			$jobId = $_GET["jobId"];
+			
+			$utils = new Utils();
+			
+			// Clear dir
+			$result = $utils->clearDir("../daemon/jobs/$jobId");
+			if($result){
+				
+				// Remove dir
+				$result = rmdir("../daemon/jobs/$jobId");
+				if($result){
+					
+					// Remove referencia (success)
+					$result = unlink("../daemon/success/$jobId");
+					if($result){
+						$response['status'] = 'SUCCESS';
+					}else{
+						$response['status'] = 'ERR';
+						$response['errorMessage'] = "Failed to delete success file!";
+					}				
+					
+				}else{
+					$response['status'] = 'ERR';
+					$response['errorMessage'] = "Failed to delete $jobId folder!";
+				}	
+				
+			}else{
+				$response['status'] = 'ERR';
+				$response['errorMessage'] = "Failed to clear $jobId folder!";
+			}
+			
+		}else{
+			$response['status'] = 'ERR';
+			$response['errorMessage'] = "Failed to get jobId $jobId!";
+		}
+		
+	}
+	
+}else{
+	$response['status'] = 'ERR';
+}
+
+echo json_encode ($response);

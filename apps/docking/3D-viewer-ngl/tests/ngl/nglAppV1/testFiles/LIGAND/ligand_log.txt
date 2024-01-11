@@ -1,0 +1,47 @@
+Starting MMFFLigand...
+
+Progress: 
+0 ... 
+Total of invalid molecules: 0
+Exiting MMFFLigand. 
+Starting MMFFLigand...
+
+Progress: 
+0 ... 
+Total of invalid molecules: 0
+Exiting MMFFLigand. 
+Starting MMFFLigand...
+
+Progress: 
+0 ... 
+ligand_a1ac772b4_10.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_11.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_20.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_25.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_33.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_37.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_45.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_47.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_48.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_49.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_50.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_51.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_52.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_53.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_58.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_61.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_63.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_68.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_69.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_73.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_74.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_75.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_78.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_8.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_80.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_82.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_87.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_90.sdf: could not setup the MMFF94S force field.
+ligand_a1ac772b4_95.sdf: could not setup the MMFF94S force field.
+Total of invalid molecules: 29
+Exiting MMFFLigand. 

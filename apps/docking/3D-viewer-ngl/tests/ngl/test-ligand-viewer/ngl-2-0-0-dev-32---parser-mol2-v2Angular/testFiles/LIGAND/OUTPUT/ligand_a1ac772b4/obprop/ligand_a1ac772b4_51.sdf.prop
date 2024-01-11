@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_51.sdf 1
+formula          C8H5F3N2OS
+mol_weight       234.198
+exact_mass       234.007
+canonical_SMILES Nc1nc2c(s1)cc(cc2)OC(F)(F)F	
+
+InChI            InChI=1S/C8H5F3N2OS/c9-8(10,11)14-4-1-2-5-6(3-4)15-7(12)13-5/h1-3H,(H2,12,13)
+
+num_atoms        20
+num_bonds        21
+num_residues     0
+num_rotors       2
+sequence         -
+num_rings        2
+logP             3.3583
+PSA              76.38
+MR               50.7074
+$$$$

@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_70.sdf 1
+formula          C25H22N4O4
+mol_weight       442.467
+exact_mass       442.164
+canonical_SMILES OC(=O)c1cccc(c1)c1cccc(c1O)N/N=C\1/C(=NN(C1=O)c1ccc(c(c1)C)C)C	
+
+InChI            InChI=1S/C25H22N4O4/c1-14-10-11-19(12-15(14)2)29-24(31)22(16(3)28-29)27-26-21-9-5-8-20(23(21)30)17-6-4-7-18(13-17)25(32)33/h4-13,26,30H,1-3H3,(H,32,33)/b27-22-
+
+num_atoms        55
+num_bonds        58
+num_residues     0
+num_rotors       5
+sequence         -
+num_rings        4
+logP             4.1384
+PSA              114.59
+MR               135.157
+$$$$

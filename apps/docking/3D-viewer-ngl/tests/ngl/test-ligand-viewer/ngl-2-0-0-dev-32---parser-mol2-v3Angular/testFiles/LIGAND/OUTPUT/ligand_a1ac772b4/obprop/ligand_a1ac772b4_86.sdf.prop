@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_86.sdf 1
+formula          C22H31NO3
+mol_weight       357.486
+exact_mass       357.23
+canonical_SMILES CCN(CC#CCOC(=O)[C@](c1ccccc1)(C1CCCCC1)O)CC	
+
+InChI            InChI=1S/C22H31NO3/c1-3-23(4-2)17-11-12-18-26-21(24)22(25,19-13-7-5-8-14-19)20-15-9-6-10-16-20/h5,7-8,13-14,20,25H,3-4,6,9-10,15-18H2,1-2H3/t22-/m0/s1
+
+num_atoms        57
+num_bonds        58
+num_residues     0
+num_rotors       8
+sequence         -
+num_rings        2
+logP             3.3429
+PSA              49.77
+MR               104.787
+$$$$

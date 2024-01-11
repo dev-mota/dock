@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_72.sdf 1
+formula          C27H29N5O6S
+mol_weight       551.614
+exact_mass       551.184
+canonical_SMILES OCCOc1nc(nc(c1Oc1ccccc1OC)NS(=O)(=O)c1ccc(cc1)C(C)(C)C)c1ncccn1	
+
+InChI            InChI=1S/C27H29N5O6S/c1-27(2,3)18-10-12-19(13-11-18)39(34,35)32-23-22(38-21-9-6-5-8-20(21)36-4)26(37-17-16-33)31-25(30-23)24-28-14-7-15-29-24/h5-15,33H,16-17H2,1-4H3,(H,30,31,32)
+
+num_atoms        68
+num_bonds        71
+num_residues     0
+num_rotors       11
+sequence         -
+num_rings        4
+logP             5.3577
+PSA              154.03
+MR               144.911
+$$$$

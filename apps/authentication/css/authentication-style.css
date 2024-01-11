@@ -1,0 +1,146 @@
+.login-container {
+	margin: 5%;
+	padding: 20px;
+	border: thin;
+	border-style: solid;
+	text-align: justify;
+}
+
+.form {
+  padding: 40px;
+/*   max-width: 600px; */
+  min-width: 50%;
+  margin-right: 23%;
+  margin-left: 23%;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.tab-group {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+.tab-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tab-group li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+/*   background: rgba(160, 179, 176, 0.25); */
+  color: #1f9797;
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.tab-group li a:hover {
+  background:  #1f9797;
+  color: #ffffff;
+}
+.tab-group .active a {
+  background:  #1f9797;
+  color: #ffffff;
+}
+
+.tab-content > div:last-child {
+  display: none;
+}
+
+.button-login {
+  border: 1px solid #1f9797;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: white;
+  color: #1f9797;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+  margin-top: 10%;
+}
+.button-login:hover, .button:focus {
+  background: #1f9797;
+  color: white;
+}
+
+.button-login-block {
+  display: block;
+  width: 100%;
+}
+
+.signup-div h2 {
+	margin-bottom: 5%;
+}
+
+.signup-div li {
+	margin-bottom: 2%;
+}
+
+.how-get-login-div, .instructions-div {
+  counter-reset: item;
+}
+
+.how-get-login-div ol, .instructions-div ol{
+	list-style: none;
+	padding-left: 4%;
+}
+
+.how-get-login-div li, .instructions-div ol>li{
+	counter-increment: item;
+   	margin-bottom: 2%;
+}
+
+ .how-get-login-div li:before, .instructions-div ol>li:before {
+   margin-right: 10px;
+   content: counter(item);
+   background: #1f9797;
+   border-radius: 100%;
+   color: white;
+   width: 1.2em;
+   text-align: center;
+   display: inline-block;
+ }
+ 
+ .instructions-div .button-login{
+ 	margin-top: 0;
+ 	margin-bottom: 5%;
+/*  	margin-left: 3%; */
+ }
+ 
+ .pdf-file-name {
+	font-size: 23px;
+	color: #1f9797;
+	margin: 5%;
+}
+
+.accept-div {
+	margin-left: 3%;
+}
+
+.remove-pdf-trash {
+	font-size: 16px;
+}
+
+.send-pdf-button {
+	background-color: #1f9797;
+	color: white;
+}
+
+.send-pdf-button:hover {
+	background-color: white;
+	color: #1f9797;
+}
+

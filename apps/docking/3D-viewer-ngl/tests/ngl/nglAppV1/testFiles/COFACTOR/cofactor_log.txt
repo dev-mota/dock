@@ -1,0 +1,6 @@
+Starting MMFFLigand...
+
+Progress: 
+0 ... 
+Total of invalid molecules: 0
+Exiting MMFFLigand. 

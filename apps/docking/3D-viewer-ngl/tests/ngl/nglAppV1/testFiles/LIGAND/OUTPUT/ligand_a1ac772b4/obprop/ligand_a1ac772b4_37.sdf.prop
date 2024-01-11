@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_37.sdf 1
+formula          C15H12BrNO3
+mol_weight       334.165
+exact_mass       333
+canonical_SMILES OC(=O)Cc1cccc(c1N)C(=O)c1ccc(cc1)Br	
+
+InChI            InChI=1S/C15H12BrNO3/c16-11-6-4-9(5-7-11)15(20)12-3-1-2-10(14(12)17)8-13(18)19/h1-7H,8,17H2,(H,18,19)
+
+num_atoms        32
+num_bonds        33
+num_residues     0
+num_rotors       4
+sequence         -
+num_rings        2
+logP             3.4706
+PSA              80.39
+MR               79.9657
+$$$$

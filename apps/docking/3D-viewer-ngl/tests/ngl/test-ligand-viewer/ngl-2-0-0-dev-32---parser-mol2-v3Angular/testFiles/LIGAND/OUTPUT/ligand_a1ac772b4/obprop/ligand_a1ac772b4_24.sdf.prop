@@ -1,0 +1,18 @@
+name             ligand_a1ac772b4_24.sdf 1
+formula          C19H21NO4
+mol_weight       327.374
+exact_mass       327.147
+canonical_SMILES C=CCN1CC[C@@]23[C@@]4([C@H]1Cc1c3c(O[C@H]2C(=O)CC4)c(cc1)O)O	
+
+InChI            InChI=1S/C19H21NO4/c1-2-8-20-9-7-18-15-11-3-4-12(21)16(15)24-17(18)13(22)5-6-19(18,23)14(20)10-11/h2-4,14,17,21,23H,1,5-10H2/t14-,17+,18+,19-/m1/s1
+
+num_atoms        45
+num_bonds        49
+num_residues     0
+num_rotors       2
+sequence         -
+num_rings        5
+logP             1.2393
+PSA              70
+MR               92.1228
+$$$$
